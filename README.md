@@ -25,7 +25,7 @@ Language: Romanian
 
 ## Installation
 
-1. Clone the repository: `git clone [[repository_url]](https://github.com/AlexD36/university-catalogue)`
+1. Clone the repository: `git clone [repository_url]`
 2. In progress
 
 ## Usage
