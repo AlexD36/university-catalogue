@@ -3,7 +3,7 @@
 UniCatalog is a comprehensive university catalogue management system designed to streamline academic administration and enhance user experience for students, faculty, and administrators.
 
 
-Language: Romanian
+Language: English
 
 ## Features
 
@@ -19,9 +19,9 @@ Language: Romanian
 
 ## Technologies Used
 
-- Programming Language: 
-- Database: 
-- Frameworks/Libraries: 
+- Programming Language: C#
+- Database: MySQL
+- Frameworks/Libraries: .NET Framework 4.7.2
 
 ## Installation
 
