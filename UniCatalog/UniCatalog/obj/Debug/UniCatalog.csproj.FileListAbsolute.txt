@@ -1,0 +1,5 @@
+C:\Users\Alex\Documents\GitHub\university-catalogue\UniCatalog\UniCatalog\obj\Debug\UniCatalog.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\university-catalogue\UniCatalog\UniCatalog\obj\Debug\UniCatalog.buttonLogin.resources
+C:\Users\Alex\Documents\GitHub\university-catalogue\UniCatalog\UniCatalog\obj\Debug\UniCatalog.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\university-catalogue\UniCatalog\UniCatalog\obj\Debug\UniCatalog.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\university-catalogue\UniCatalog\UniCatalog\obj\Debug\UniCatalog.csproj.CoreCompileInputs.cache
