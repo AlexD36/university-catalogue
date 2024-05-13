@@ -42,5 +42,10 @@ namespace UniCatalog
             AddStudentForm addStdF = new AddStudentForm();
             addStdF.Show(this);
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

@@ -122,6 +122,7 @@
   <ItemGroup>
     <Content Include="images\addStudentForm.jpg" />
     <Content Include="images\loginform.jpg" />
+    <Content Include="images\mainform.jpg" />
     <Content Include="images\studentlist.jpg" />
     <Content Include="images\studentupdatedelete.jpg" />
   </ItemGroup>
