@@ -66,6 +66,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="studentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studentListForm.Designer.cs">
+      <DependentUpon>studentListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDeteleStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDeteleStudentForm.Designer.cs">
+      <DependentUpon>UpdateDeteleStudentForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddStudentForm.resx">
       <DependentUpon>AddStudentForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +98,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="studentListForm.resx">
+      <DependentUpon>studentListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDeteleStudentForm.resx">
+      <DependentUpon>UpdateDeteleStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\DataSources\UniCatalog.Properties.Resources.datasource" />
     <None Include="Properties\DataSources\UniCatalog.Properties.Settings.datasource" />
     <None Include="Properties\Settings.settings">
@@ -103,6 +122,8 @@
   <ItemGroup>
     <Content Include="images\addStudentForm.jpg" />
     <Content Include="images\loginform.jpg" />
+    <Content Include="images\studentlist.jpg" />
+    <Content Include="images\studentupdatedelete.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

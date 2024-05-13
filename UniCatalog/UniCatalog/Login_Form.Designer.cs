@@ -42,7 +42,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(380, 472);
+            this.label1.Location = new System.Drawing.Point(374, 455);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(281, 34);
@@ -57,7 +57,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Location = new System.Drawing.Point(304, 535);
+            this.label2.Location = new System.Drawing.Point(298, 518);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(150, 28);
             this.label2.TabIndex = 1;
@@ -69,7 +69,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label3.Location = new System.Drawing.Point(304, 578);
+            this.label3.Location = new System.Drawing.Point(298, 561);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(147, 28);
             this.label3.TabIndex = 2;
@@ -79,7 +79,7 @@
             // 
             this.textBoxUsername.BackColor = System.Drawing.Color.Black;
             this.textBoxUsername.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUsername.Location = new System.Drawing.Point(460, 532);
+            this.textBoxUsername.Location = new System.Drawing.Point(454, 515);
             this.textBoxUsername.Name = "textBoxUsername";
             this.textBoxUsername.Size = new System.Drawing.Size(268, 35);
             this.textBoxUsername.TabIndex = 3;
@@ -88,7 +88,7 @@
             // 
             this.textBox2.BackColor = System.Drawing.Color.Black;
             this.textBox2.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(460, 575);
+            this.textBox2.Location = new System.Drawing.Point(454, 558);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(268, 35);
             this.textBox2.TabIndex = 4;
@@ -98,7 +98,7 @@
             this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.button1.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button1.Location = new System.Drawing.Point(460, 628);
+            this.button1.Location = new System.Drawing.Point(454, 599);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(123, 36);
             this.button1.TabIndex = 5;
@@ -112,7 +112,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::UniCatalog.Properties.Resources.loginform;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1002, 973);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);

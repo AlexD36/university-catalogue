@@ -7,12 +7,28 @@
       "RelativeMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|solutionrelative:unicatalog\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\unicatalog\\unicatalog\\updatedetelestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|solutionrelative:unicatalog\\updatedetelestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\unicatalog\\unicatalog\\updatedetelestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|solutionrelative:unicatalog\\updatedetelestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\unicatalog\\unicatalog\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|solutionrelative:unicatalog\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\unicatalog\\unicatalog\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|solutionrelative:unicatalog\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\unicatalog\\unicatalog\\studentlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|solutionrelative:unicatalog\\studentlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\unicatalog\\unicatalog\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|solutionrelative:unicatalog\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\unicatalog\\unicatalog\\studentlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79E1C225-693A-48B2-B705-168E2879E492}|UniCatalog\\UniCatalog.csproj|solutionrelative:unicatalog\\studentlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\MainForm.cs",
-              "RelativeDocumentMoniker": "UniCatalog\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\MainForm.cs",
-              "RelativeToolTip": "UniCatalog\\MainForm.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:16:22.838Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -46,19 +49,82 @@
               "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\AddStudentForm.cs [Design]",
               "RelativeToolTip": "UniCatalog\\AddStudentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:11:37.289Z",
+              "WhenOpened": "2024-05-13T18:16:23.796Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UpdateDeteleStudentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\UpdateDeteleStudentForm.cs",
+              "RelativeDocumentMoniker": "UniCatalog\\UpdateDeteleStudentForm.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\UpdateDeteleStudentForm.cs [Design]",
+              "RelativeToolTip": "UniCatalog\\UpdateDeteleStudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:10:07.638Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "studentListForm.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\studentListForm.cs",
+              "RelativeDocumentMoniker": "UniCatalog\\studentListForm.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\studentListForm.cs",
+              "RelativeToolTip": "UniCatalog\\studentListForm.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAWwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:39:48.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\MainForm.cs",
               "RelativeDocumentMoniker": "UniCatalog\\MainForm.cs",
               "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\MainForm.cs [Design]",
               "RelativeToolTip": "UniCatalog\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:51:56.865Z",
+              "WhenOpened": "2024-05-13T18:10:12.307Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateDeteleStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\UpdateDeteleStudentForm.cs",
+              "RelativeDocumentMoniker": "UniCatalog\\UpdateDeteleStudentForm.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\UpdateDeteleStudentForm.cs",
+              "RelativeToolTip": "UniCatalog\\UpdateDeteleStudentForm.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAWwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:27:21.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "UniCatalog\\AddStudentForm.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\AddStudentForm.cs",
+              "RelativeToolTip": "UniCatalog\\AddStudentForm.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAWwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:16:32.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "studentListForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\studentListForm.cs",
+              "RelativeDocumentMoniker": "UniCatalog\\studentListForm.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\UniCatalog\\UniCatalog\\studentListForm.cs [Design]",
+              "RelativeToolTip": "UniCatalog\\studentListForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:32:09.584Z",
               "EditorCaption": " [Design]"
             }
           ]

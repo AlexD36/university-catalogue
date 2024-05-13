@@ -30,28 +30,28 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxFName = new System.Windows.Forms.TextBox();
+            this.textBoxLName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerBirthDate = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButtonFemale = new System.Windows.Forms.RadioButton();
+            this.radioButtonMale = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxPhone = new System.Windows.Forms.TextBox();
+            this.textBoxAdress = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBoxStudentPicture = new System.Windows.Forms.PictureBox();
+            this.buttonUploadPicture = new System.Windows.Forms.Button();
+            this.buttonAddStudent = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStudentPicture)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -79,23 +79,23 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Last Name:";
             // 
-            // textBox1
+            // textBoxFName
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(196, 180);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(239, 32);
-            this.textBox1.TabIndex = 2;
+            this.textBoxFName.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBoxFName.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxFName.Location = new System.Drawing.Point(196, 180);
+            this.textBoxFName.Name = "textBoxFName";
+            this.textBoxFName.Size = new System.Drawing.Size(239, 32);
+            this.textBoxFName.TabIndex = 2;
             // 
-            // textBox2
+            // textBoxLName
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(196, 241);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(239, 32);
-            this.textBox2.TabIndex = 3;
+            this.textBoxLName.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBoxLName.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxLName.Location = new System.Drawing.Point(196, 241);
+            this.textBoxLName.Name = "textBoxLName";
+            this.textBoxLName.Size = new System.Drawing.Size(239, 32);
+            this.textBoxLName.TabIndex = 3;
             // 
             // label3
             // 
@@ -110,15 +110,15 @@
             this.label3.Text = "Birth Date:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // dateTimePicker1
+            // dateTimePickerBirthDate
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.Gainsboro;
-            this.dateTimePicker1.Location = new System.Drawing.Point(196, 303);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(239, 22);
-            this.dateTimePicker1.TabIndex = 5;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dateTimePickerBirthDate.CalendarFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerBirthDate.CalendarMonthBackground = System.Drawing.Color.Gainsboro;
+            this.dateTimePickerBirthDate.Location = new System.Drawing.Point(196, 303);
+            this.dateTimePickerBirthDate.Name = "dateTimePickerBirthDate";
+            this.dateTimePickerBirthDate.Size = new System.Drawing.Size(239, 22);
+            this.dateTimePickerBirthDate.TabIndex = 5;
+            this.dateTimePickerBirthDate.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label4
             // 
@@ -136,8 +136,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButtonFemale);
+            this.groupBox1.Controls.Add(this.radioButtonMale);
             this.groupBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox1.Location = new System.Drawing.Point(196, 353);
             this.groupBox1.Name = "groupBox1";
@@ -146,6 +146,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "M/F ?";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // radioButtonFemale
+            // 
+            this.radioButtonFemale.AutoSize = true;
+            this.radioButtonFemale.Location = new System.Drawing.Point(138, 19);
+            this.radioButtonFemale.Name = "radioButtonFemale";
+            this.radioButtonFemale.Size = new System.Drawing.Size(74, 20);
+            this.radioButtonFemale.TabIndex = 1;
+            this.radioButtonFemale.TabStop = true;
+            this.radioButtonFemale.Text = "Female";
+            this.radioButtonFemale.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonMale
+            // 
+            this.radioButtonMale.AutoSize = true;
+            this.radioButtonMale.Location = new System.Drawing.Point(36, 19);
+            this.radioButtonMale.Name = "radioButtonMale";
+            this.radioButtonMale.Size = new System.Drawing.Size(58, 20);
+            this.radioButtonMale.TabIndex = 0;
+            this.radioButtonMale.TabStop = true;
+            this.radioButtonMale.Text = "Male";
+            this.radioButtonMale.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -159,28 +181,6 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "NEW STUDENT INFO";
             this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(36, 19);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(58, 20);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(138, 19);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(74, 20);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -219,24 +219,24 @@
             this.label8.TabIndex = 11;
             this.label8.Text = "_______________________";
             // 
-            // textBox3
+            // textBoxPhone
             // 
-            this.textBox3.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(196, 470);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(239, 32);
-            this.textBox3.TabIndex = 12;
+            this.textBoxPhone.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBoxPhone.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPhone.Location = new System.Drawing.Point(196, 470);
+            this.textBoxPhone.Name = "textBoxPhone";
+            this.textBoxPhone.Size = new System.Drawing.Size(239, 32);
+            this.textBoxPhone.TabIndex = 12;
             // 
-            // textBox4
+            // textBoxAdress
             // 
-            this.textBox4.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(196, 520);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(239, 133);
-            this.textBox4.TabIndex = 13;
+            this.textBoxAdress.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBoxAdress.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxAdress.Location = new System.Drawing.Point(196, 520);
+            this.textBoxAdress.Multiline = true;
+            this.textBoxAdress.Name = "textBoxAdress";
+            this.textBoxAdress.Size = new System.Drawing.Size(239, 133);
+            this.textBoxAdress.TabIndex = 13;
             // 
             // label9
             // 
@@ -263,38 +263,38 @@
             this.label10.Text = "Picture:";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // pictureBox1
+            // pictureBoxStudentPicture
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.pictureBox1.Location = new System.Drawing.Point(196, 697);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(239, 86);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxStudentPicture.BackColor = System.Drawing.Color.Gainsboro;
+            this.pictureBoxStudentPicture.Location = new System.Drawing.Point(196, 697);
+            this.pictureBoxStudentPicture.Name = "pictureBoxStudentPicture";
+            this.pictureBoxStudentPicture.Size = new System.Drawing.Size(239, 86);
+            this.pictureBoxStudentPicture.TabIndex = 16;
+            this.pictureBoxStudentPicture.TabStop = false;
             // 
-            // button1
+            // buttonUploadPicture
             // 
-            this.button1.BackColor = System.Drawing.Color.Gainsboro;
-            this.button1.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.Location = new System.Drawing.Point(196, 789);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(239, 23);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Upload Image";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonUploadPicture.BackColor = System.Drawing.Color.Gainsboro;
+            this.buttonUploadPicture.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonUploadPicture.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonUploadPicture.Location = new System.Drawing.Point(196, 789);
+            this.buttonUploadPicture.Name = "buttonUploadPicture";
+            this.buttonUploadPicture.Size = new System.Drawing.Size(239, 23);
+            this.buttonUploadPicture.TabIndex = 17;
+            this.buttonUploadPicture.Text = "Upload Image";
+            this.buttonUploadPicture.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // buttonAddStudent
             // 
-            this.button2.BackColor = System.Drawing.Color.Gainsboro;
-            this.button2.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button2.Location = new System.Drawing.Point(124, 857);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(256, 46);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "ADD STUDENT";
-            this.button2.UseVisualStyleBackColor = false;
+            this.buttonAddStudent.BackColor = System.Drawing.Color.Gainsboro;
+            this.buttonAddStudent.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAddStudent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonAddStudent.Location = new System.Drawing.Point(124, 857);
+            this.buttonAddStudent.Name = "buttonAddStudent";
+            this.buttonAddStudent.Size = new System.Drawing.Size(256, 46);
+            this.buttonAddStudent.TabIndex = 18;
+            this.buttonAddStudent.Text = "ADD STUDENT";
+            this.buttonAddStudent.UseVisualStyleBackColor = false;
             // 
             // label11
             // 
@@ -316,23 +316,23 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(494, 977);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.buttonAddStudent);
+            this.Controls.Add(this.buttonUploadPicture);
+            this.Controls.Add(this.pictureBoxStudentPicture);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxAdress);
+            this.Controls.Add(this.textBoxPhone);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dateTimePickerBirthDate);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxLName);
+            this.Controls.Add(this.textBoxFName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -340,9 +340,10 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add New Student";
+            this.Load += new System.EventHandler(this.AddStudentForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStudentPicture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -352,25 +353,25 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxFName;
+        private System.Windows.Forms.TextBox textBoxLName;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePickerBirthDate;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButtonMale;
+        private System.Windows.Forms.RadioButton radioButtonFemale;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxPhone;
+        private System.Windows.Forms.TextBox textBoxAdress;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBoxStudentPicture;
+        private System.Windows.Forms.Button buttonUploadPicture;
+        private System.Windows.Forms.Button buttonAddStudent;
         private System.Windows.Forms.Label label11;
     }
 }

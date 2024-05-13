@@ -56,5 +56,10 @@ namespace UniCatalog
         {
 
         }
+
+        private void AddStudentForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
