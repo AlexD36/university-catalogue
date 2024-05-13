@@ -63,6 +63,16 @@ namespace UniCatalog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap addStudentForm {
+            get {
+                object obj = ResourceManager.GetObject("addStudentForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap loginform {
             get {
                 object obj = ResourceManager.GetObject("loginform", resourceCulture);
