@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblmenu = new System.Windows.Forms.Label();
             this.btn_login = new System.Windows.Forms.Button();
             this.btn_find = new System.Windows.Forms.Button();
             this.btn_reports = new System.Windows.Forms.Button();
@@ -37,9 +38,7 @@
             this.btn_course = new System.Windows.Forms.Button();
             this.btn_curriculumn = new System.Windows.Forms.Button();
             this.btn_grades = new System.Windows.Forms.Button();
-            this.lblmenu = new System.Windows.Forms.Label();
             this.btn_students = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,9 +57,20 @@
             this.panel1.Controls.Add(this.btn_students);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(162, 498);
+            this.panel1.Size = new System.Drawing.Size(216, 613);
             this.panel1.TabIndex = 1;
+            // 
+            // lblmenu
+            // 
+            this.lblmenu.BackColor = System.Drawing.Color.Red;
+            this.lblmenu.ForeColor = System.Drawing.Color.Red;
+            this.lblmenu.Location = new System.Drawing.Point(1, 0);
+            this.lblmenu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblmenu.Name = "lblmenu";
+            this.lblmenu.Size = new System.Drawing.Size(13, 55);
+            this.lblmenu.TabIndex = 2;
             // 
             // btn_login
             // 
@@ -72,9 +82,10 @@
             this.btn_login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_login.ForeColor = System.Drawing.Color.White;
-            this.btn_login.Location = new System.Drawing.Point(0, 360);
+            this.btn_login.Location = new System.Drawing.Point(0, 443);
+            this.btn_login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(162, 45);
+            this.btn_login.Size = new System.Drawing.Size(216, 55);
             this.btn_login.TabIndex = 10;
             this.btn_login.Text = "Login";
             this.btn_login.UseVisualStyleBackColor = false;
@@ -92,9 +103,10 @@
             this.btn_find.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_find.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_find.ForeColor = System.Drawing.Color.White;
-            this.btn_find.Location = new System.Drawing.Point(0, 315);
+            this.btn_find.Location = new System.Drawing.Point(0, 388);
+            this.btn_find.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_find.Name = "btn_find";
-            this.btn_find.Size = new System.Drawing.Size(162, 45);
+            this.btn_find.Size = new System.Drawing.Size(216, 55);
             this.btn_find.TabIndex = 9;
             this.btn_find.Text = "Find Students";
             this.btn_find.UseVisualStyleBackColor = false;
@@ -112,9 +124,10 @@
             this.btn_reports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_reports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_reports.ForeColor = System.Drawing.Color.White;
-            this.btn_reports.Location = new System.Drawing.Point(0, 270);
+            this.btn_reports.Location = new System.Drawing.Point(0, 332);
+            this.btn_reports.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_reports.Name = "btn_reports";
-            this.btn_reports.Size = new System.Drawing.Size(162, 45);
+            this.btn_reports.Size = new System.Drawing.Size(216, 55);
             this.btn_reports.TabIndex = 8;
             this.btn_reports.Text = "Generate Reports";
             this.btn_reports.UseVisualStyleBackColor = false;
@@ -132,9 +145,10 @@
             this.btn_prerequisite.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_prerequisite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_prerequisite.ForeColor = System.Drawing.Color.White;
-            this.btn_prerequisite.Location = new System.Drawing.Point(0, 225);
+            this.btn_prerequisite.Location = new System.Drawing.Point(0, 277);
+            this.btn_prerequisite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_prerequisite.Name = "btn_prerequisite";
-            this.btn_prerequisite.Size = new System.Drawing.Size(162, 45);
+            this.btn_prerequisite.Size = new System.Drawing.Size(216, 55);
             this.btn_prerequisite.TabIndex = 7;
             this.btn_prerequisite.Text = "Manage Pre-Requisites";
             this.btn_prerequisite.UseVisualStyleBackColor = false;
@@ -152,9 +166,10 @@
             this.btn_users.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_users.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_users.ForeColor = System.Drawing.Color.White;
-            this.btn_users.Location = new System.Drawing.Point(0, 180);
+            this.btn_users.Location = new System.Drawing.Point(0, 222);
+            this.btn_users.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_users.Name = "btn_users";
-            this.btn_users.Size = new System.Drawing.Size(162, 45);
+            this.btn_users.Size = new System.Drawing.Size(216, 55);
             this.btn_users.TabIndex = 6;
             this.btn_users.Text = "Manage Users";
             this.btn_users.UseVisualStyleBackColor = false;
@@ -172,9 +187,10 @@
             this.btn_course.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_course.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_course.ForeColor = System.Drawing.Color.White;
-            this.btn_course.Location = new System.Drawing.Point(0, 135);
+            this.btn_course.Location = new System.Drawing.Point(0, 166);
+            this.btn_course.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_course.Name = "btn_course";
-            this.btn_course.Size = new System.Drawing.Size(162, 45);
+            this.btn_course.Size = new System.Drawing.Size(216, 55);
             this.btn_course.TabIndex = 5;
             this.btn_course.Text = "Manage Courses";
             this.btn_course.UseVisualStyleBackColor = false;
@@ -192,9 +208,10 @@
             this.btn_curriculumn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_curriculumn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_curriculumn.ForeColor = System.Drawing.Color.White;
-            this.btn_curriculumn.Location = new System.Drawing.Point(0, 90);
+            this.btn_curriculumn.Location = new System.Drawing.Point(0, 111);
+            this.btn_curriculumn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_curriculumn.Name = "btn_curriculumn";
-            this.btn_curriculumn.Size = new System.Drawing.Size(162, 45);
+            this.btn_curriculumn.Size = new System.Drawing.Size(216, 55);
             this.btn_curriculumn.TabIndex = 4;
             this.btn_curriculumn.Text = "Manage Curriculumn";
             this.btn_curriculumn.UseVisualStyleBackColor = false;
@@ -212,24 +229,16 @@
             this.btn_grades.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_grades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_grades.ForeColor = System.Drawing.Color.White;
-            this.btn_grades.Location = new System.Drawing.Point(0, 45);
+            this.btn_grades.Location = new System.Drawing.Point(0, 55);
+            this.btn_grades.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_grades.Name = "btn_grades";
-            this.btn_grades.Size = new System.Drawing.Size(162, 45);
+            this.btn_grades.Size = new System.Drawing.Size(216, 55);
             this.btn_grades.TabIndex = 3;
             this.btn_grades.Text = "Manage Grades";
             this.btn_grades.UseVisualStyleBackColor = false;
             this.btn_grades.Click += new System.EventHandler(this.btn_grades_Click);
             this.btn_grades.MouseLeave += new System.EventHandler(this.btn_grades_MouseLeave);
             this.btn_grades.MouseHover += new System.EventHandler(this.btn_grades_MouseHover);
-            // 
-            // lblmenu
-            // 
-            this.lblmenu.BackColor = System.Drawing.Color.Red;
-            this.lblmenu.ForeColor = System.Drawing.Color.Red;
-            this.lblmenu.Location = new System.Drawing.Point(1, 0);
-            this.lblmenu.Name = "lblmenu";
-            this.lblmenu.Size = new System.Drawing.Size(10, 45);
-            this.lblmenu.TabIndex = 2;
             // 
             // btn_students
             // 
@@ -242,8 +251,9 @@
             this.btn_students.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_students.ForeColor = System.Drawing.Color.White;
             this.btn_students.Location = new System.Drawing.Point(0, 0);
+            this.btn_students.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_students.Name = "btn_students";
-            this.btn_students.Size = new System.Drawing.Size(162, 45);
+            this.btn_students.Size = new System.Drawing.Size(216, 55);
             this.btn_students.TabIndex = 2;
             this.btn_students.Text = "Manage Students";
             this.btn_students.UseVisualStyleBackColor = false;
@@ -251,25 +261,13 @@
             this.btn_students.MouseLeave += new System.EventHandler(this.btn_students_MouseLeave);
             this.btn_students.MouseHover += new System.EventHandler(this.btn_students_MouseHover);
             // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Black;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(162, 408);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(752, 90);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Copyrights @janobe Source Code ";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 498);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(1219, 613);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Management System | Main Form";
@@ -292,7 +290,6 @@
         private System.Windows.Forms.Button btn_grades;
         private System.Windows.Forms.Label lblmenu;
         private System.Windows.Forms.Button btn_students;
-        private System.Windows.Forms.Label label2;
     }
 }
 

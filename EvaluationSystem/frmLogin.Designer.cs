@@ -28,99 +28,103 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
-            this.Cancel = new System.Windows.Forms.Button();
-            this.OK = new System.Windows.Forms.Button();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.UsernameTextBox = new System.Windows.Forms.TextBox();
-            this.PasswordLabel = new System.Windows.Forms.Label();
-            this.UsernameLabel = new System.Windows.Forms.Label();
-            this.LogoPictureBox = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox)).BeginInit();
+            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.OK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Cancel
+            // label1
             // 
-            this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel.Location = new System.Drawing.Point(114, 122);
-            this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(94, 37);
-            this.Cancel.TabIndex = 12;
-            this.Cancel.Text = "&Cancel";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(370, 452);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(281, 34);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "ACCOUNT LOGIN";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // OK
+            // label2
             // 
-            this.OK.Location = new System.Drawing.Point(11, 122);
-            this.OK.Name = "OK";
-            this.OK.Size = new System.Drawing.Size(94, 37);
-            this.OK.TabIndex = 11;
-            this.OK.Text = "&OK";
-            this.OK.Click += new System.EventHandler(this.OK_Click);
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label2.Location = new System.Drawing.Point(286, 502);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(150, 28);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Username:";
             // 
-            // PasswordTextBox
+            // label3
             // 
-            this.PasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswordTextBox.Location = new System.Drawing.Point(12, 90);
-            this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.PasswordChar = '*';
-            this.PasswordTextBox.Size = new System.Drawing.Size(220, 26);
-            this.PasswordTextBox.TabIndex = 10;
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label3.Location = new System.Drawing.Point(289, 549);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(147, 28);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Password:";
             // 
             // UsernameTextBox
             // 
-            this.UsernameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsernameTextBox.Location = new System.Drawing.Point(12, 35);
+            this.UsernameTextBox.BackColor = System.Drawing.Color.Black;
+            this.UsernameTextBox.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsernameTextBox.Location = new System.Drawing.Point(442, 502);
             this.UsernameTextBox.Name = "UsernameTextBox";
-            this.UsernameTextBox.Size = new System.Drawing.Size(220, 26);
-            this.UsernameTextBox.TabIndex = 8;
+            this.UsernameTextBox.Size = new System.Drawing.Size(268, 35);
+            this.UsernameTextBox.TabIndex = 16;
             // 
-            // PasswordLabel
+            // PasswordTextBox
             // 
-            this.PasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswordLabel.Location = new System.Drawing.Point(12, 64);
-            this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(220, 23);
-            this.PasswordLabel.TabIndex = 9;
-            this.PasswordLabel.Text = "&Password";
-            this.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.PasswordTextBox.BackColor = System.Drawing.Color.Black;
+            this.PasswordTextBox.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordTextBox.Location = new System.Drawing.Point(442, 543);
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.Size = new System.Drawing.Size(268, 35);
+            this.PasswordTextBox.TabIndex = 17;
             // 
-            // UsernameLabel
+            // OK
             // 
-            this.UsernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsernameLabel.Location = new System.Drawing.Point(12, 9);
-            this.UsernameLabel.Name = "UsernameLabel";
-            this.UsernameLabel.Size = new System.Drawing.Size(220, 23);
-            this.UsernameLabel.TabIndex = 6;
-            this.UsernameLabel.Text = "&User name";
-            this.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // LogoPictureBox
-            // 
-            this.LogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("LogoPictureBox.Image")));
-            this.LogoPictureBox.Location = new System.Drawing.Point(251, 9);
-            this.LogoPictureBox.Name = "LogoPictureBox";
-            this.LogoPictureBox.Size = new System.Drawing.Size(165, 193);
-            this.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.LogoPictureBox.TabIndex = 7;
-            this.LogoPictureBox.TabStop = false;
+            this.OK.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.OK.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OK.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.OK.Location = new System.Drawing.Point(442, 594);
+            this.OK.Name = "OK";
+            this.OK.Size = new System.Drawing.Size(123, 36);
+            this.OK.TabIndex = 18;
+            this.OK.Text = "LOGIN";
+            this.OK.UseVisualStyleBackColor = false;
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(423, 212);
-            this.Controls.Add(this.Cancel);
+            this.BackgroundImage = global::EvaluationSystem.Properties.Resources.loginform;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(1002, 973);
+            this.ControlBox = false;
             this.Controls.Add(this.OK);
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.UsernameTextBox);
-            this.Controls.Add(this.PasswordLabel);
-            this.Controls.Add(this.UsernameLabel);
-            this.Controls.Add(this.LogoPictureBox);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmLogin";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.frmLogin_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,12 +132,11 @@
 
         #endregion
 
-        internal System.Windows.Forms.Button Cancel;
-        internal System.Windows.Forms.Button OK;
-        internal System.Windows.Forms.TextBox PasswordTextBox;
-        internal System.Windows.Forms.TextBox UsernameTextBox;
-        internal System.Windows.Forms.Label PasswordLabel;
-        internal System.Windows.Forms.Label UsernameLabel;
-        internal System.Windows.Forms.PictureBox LogoPictureBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox UsernameTextBox;
+        private System.Windows.Forms.TextBox PasswordTextBox;
+        private System.Windows.Forms.Button OK;
     }
 }
