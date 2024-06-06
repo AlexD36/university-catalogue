@@ -110,7 +110,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EvaluationSystem.Properties.Resources.loginform;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1002, 973);
+            this.ClientSize = new System.Drawing.Size(998, 969);
             this.ControlBox = false;
             this.Controls.Add(this.OK);
             this.Controls.Add(this.PasswordTextBox);
