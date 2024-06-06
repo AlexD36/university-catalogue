@@ -24,6 +24,11 @@ namespace EvaluationSystem
         string sql;
         int maxrow, inc, idno, courseid;
 
+        private void crystalReportViewer1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void reports(string sql, string rptname)
         {
 

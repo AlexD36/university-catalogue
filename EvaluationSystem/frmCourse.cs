@@ -67,6 +67,11 @@ namespace EvaluationSystem
             txtCourse.Text = dtglist.CurrentRow.Cells[1].Value.ToString();
         }
 
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnclose_Click(object sender, EventArgs e)
         {
             this.Close();

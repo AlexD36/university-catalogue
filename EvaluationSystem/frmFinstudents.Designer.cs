@@ -40,27 +40,31 @@
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(509, 78);
+            this.Label2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label2.Location = new System.Drawing.Point(679, 96);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(61, 17);
+            this.Label2.Size = new System.Drawing.Size(86, 20);
             this.Label2.TabIndex = 16;
             this.Label2.Text = "Search :";
             // 
             // TextBox1
             // 
             this.TextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBox1.Location = new System.Drawing.Point(576, 75);
+            this.TextBox1.Location = new System.Drawing.Point(768, 92);
+            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(304, 23);
+            this.TextBox1.Size = new System.Drawing.Size(404, 26);
             this.TextBox1.TabIndex = 15;
             this.TextBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(787, 461);
+            this.btnClose.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Location = new System.Drawing.Point(1049, 567);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(93, 31);
+            this.btnClose.Size = new System.Drawing.Size(124, 38);
             this.btnClose.TabIndex = 13;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -68,9 +72,11 @@
             // 
             // btnAddGrades
             // 
-            this.btnAddGrades.Location = new System.Drawing.Point(650, 461);
+            this.btnAddGrades.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddGrades.Location = new System.Drawing.Point(867, 567);
+            this.btnAddGrades.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddGrades.Name = "btnAddGrades";
-            this.btnAddGrades.Size = new System.Drawing.Size(131, 31);
+            this.btnAddGrades.Size = new System.Drawing.Size(175, 38);
             this.btnAddGrades.TabIndex = 14;
             this.btnAddGrades.Text = "Print Curriculum";
             this.btnAddGrades.UseVisualStyleBackColor = true;
@@ -79,10 +85,11 @@
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(13, 11);
+            this.Label1.Font = new System.Drawing.Font("Verdana", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.Location = new System.Drawing.Point(17, 14);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(335, 40);
+            this.Label1.Size = new System.Drawing.Size(432, 45);
             this.Label1.TabIndex = 12;
             this.Label1.Text = "Search for Students";
             // 
@@ -96,24 +103,28 @@
             this.dtgList.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtgList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgList.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dtgList.Location = new System.Drawing.Point(13, 104);
+            this.dtgList.Location = new System.Drawing.Point(17, 128);
+            this.dtgList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgList.Name = "dtgList";
+            this.dtgList.RowHeadersWidth = 51;
             this.dtgList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgList.Size = new System.Drawing.Size(867, 351);
+            this.dtgList.Size = new System.Drawing.Size(1156, 432);
             this.dtgList.TabIndex = 11;
             // 
             // frmFinstudents
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(893, 502);
+            this.ClientSize = new System.Drawing.Size(1191, 618);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnAddGrades);
             this.Controls.Add(this.Label1);
             this.Controls.Add(this.dtgList);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmFinstudents";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Find Students";
             this.Load += new System.EventHandler(this.frmFinstudents_Load);
