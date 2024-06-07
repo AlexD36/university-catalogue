@@ -39,6 +39,36 @@ namespace EvaluationSystem
             }
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UsernameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PasswordTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OK_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
         private void frmLogin_Load(object sender, EventArgs e)
         {
 
