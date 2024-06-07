@@ -61,28 +61,32 @@
             // 
             this.Label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label11.AutoSize = true;
-            this.Label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label11.Location = new System.Drawing.Point(586, 245);
+            this.Label11.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label11.Location = new System.Drawing.Point(781, 302);
+            this.Label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(61, 17);
+            this.Label11.Size = new System.Drawing.Size(66, 16);
             this.Label11.TabIndex = 85;
             this.Label11.Text = "Search :";
             // 
             // txtSearch
             // 
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSearch.Location = new System.Drawing.Point(653, 244);
+            this.txtSearch.Location = new System.Drawing.Point(871, 300);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(235, 20);
+            this.txtSearch.Size = new System.Drawing.Size(312, 23);
             this.txtSearch.TabIndex = 84;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // btnDelete
             // 
             this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnDelete.Location = new System.Drawing.Point(372, 214);
+            this.btnDelete.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(496, 263);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 35);
+            this.btnDelete.Size = new System.Drawing.Size(100, 43);
             this.btnDelete.TabIndex = 83;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -91,38 +95,44 @@
             // cboSemester
             // 
             this.cboSemester.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cboSemester.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboSemester.FormattingEnabled = true;
             this.cboSemester.Items.AddRange(new object[] {
             "First",
             "Second"});
-            this.cboSemester.Location = new System.Drawing.Point(576, 99);
+            this.cboSemester.Location = new System.Drawing.Point(768, 122);
+            this.cboSemester.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboSemester.Name = "cboSemester";
-            this.cboSemester.Size = new System.Drawing.Size(211, 21);
+            this.cboSemester.Size = new System.Drawing.Size(280, 24);
             this.cboSemester.TabIndex = 82;
             this.cboSemester.Text = "Select";
             // 
             // cboYearLevel
             // 
             this.cboYearLevel.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cboYearLevel.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboYearLevel.FormattingEnabled = true;
             this.cboYearLevel.Items.AddRange(new object[] {
             "First",
             "Second",
             "Third",
             "Fourth"});
-            this.cboYearLevel.Location = new System.Drawing.Point(576, 70);
+            this.cboYearLevel.Location = new System.Drawing.Point(768, 86);
+            this.cboYearLevel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboYearLevel.Name = "cboYearLevel";
-            this.cboYearLevel.Size = new System.Drawing.Size(211, 21);
+            this.cboYearLevel.Size = new System.Drawing.Size(280, 24);
             this.cboYearLevel.TabIndex = 79;
             this.cboYearLevel.Text = "Select";
             // 
             // cboCourse
             // 
             this.cboCourse.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cboCourse.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboCourse.FormattingEnabled = true;
-            this.cboCourse.Location = new System.Drawing.Point(576, 44);
+            this.cboCourse.Location = new System.Drawing.Point(768, 54);
+            this.cboCourse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboCourse.Name = "cboCourse";
-            this.cboCourse.Size = new System.Drawing.Size(211, 21);
+            this.cboCourse.Size = new System.Drawing.Size(280, 24);
             this.cboCourse.TabIndex = 78;
             this.cboCourse.Text = "Select";
             // 
@@ -130,10 +140,11 @@
             // 
             this.Label8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Label8.AutoSize = true;
-            this.Label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label8.Location = new System.Drawing.Point(486, 71);
+            this.Label8.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label8.Location = new System.Drawing.Point(648, 87);
+            this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(84, 17);
+            this.Label8.Size = new System.Drawing.Size(93, 16);
             this.Label8.TabIndex = 74;
             this.Label8.Text = "Year Level :";
             // 
@@ -141,10 +152,11 @@
             // 
             this.Label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Label7.AutoSize = true;
-            this.Label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label7.Location = new System.Drawing.Point(494, 99);
+            this.Label7.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label7.Location = new System.Drawing.Point(659, 122);
+            this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(76, 17);
+            this.Label7.Size = new System.Drawing.Size(86, 16);
             this.Label7.TabIndex = 73;
             this.Label7.Text = "Semester :";
             // 
@@ -152,29 +164,35 @@
             // 
             this.Label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Label6.AutoSize = true;
-            this.Label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label6.Location = new System.Drawing.Point(509, 45);
+            this.Label6.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label6.Location = new System.Drawing.Point(679, 55);
+            this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(61, 17);
+            this.Label6.Size = new System.Drawing.Size(67, 16);
             this.Label6.TabIndex = 75;
             this.Label6.Text = "Course :";
             // 
             // btnClose
             // 
             this.btnClose.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnClose.Location = new System.Drawing.Point(453, 214);
+            this.btnClose.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Location = new System.Drawing.Point(604, 263);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 35);
+            this.btnClose.Size = new System.Drawing.Size(100, 43);
             this.btnClose.TabIndex = 72;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnNew
             // 
             this.btnNew.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnNew.Location = new System.Drawing.Point(291, 214);
+            this.btnNew.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNew.Location = new System.Drawing.Point(388, 263);
+            this.btnNew.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(75, 35);
+            this.btnNew.Size = new System.Drawing.Size(100, 43);
             this.btnNew.TabIndex = 71;
             this.btnNew.Text = "Clear";
             this.btnNew.UseVisualStyleBackColor = true;
@@ -183,9 +201,11 @@
             // btnSave
             // 
             this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnSave.Location = new System.Drawing.Point(210, 214);
+            this.btnSave.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(280, 263);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 35);
+            this.btnSave.Size = new System.Drawing.Size(100, 43);
             this.btnSave.TabIndex = 70;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -204,50 +224,56 @@
             this.dtgList.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtgList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgList.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dtgList.Location = new System.Drawing.Point(12, 270);
+            this.dtgList.Location = new System.Drawing.Point(16, 332);
+            this.dtgList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgList.Name = "dtgList";
             this.dtgList.RowHeadersVisible = false;
+            this.dtgList.RowHeadersWidth = 51;
             this.dtgList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgList.Size = new System.Drawing.Size(876, 260);
+            this.dtgList.Size = new System.Drawing.Size(1168, 320);
             this.dtgList.TabIndex = 67;
             this.dtgList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgList_CellClick);
             // 
             // txtDesc
             // 
             this.txtDesc.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDesc.Location = new System.Drawing.Point(210, 73);
+            this.txtDesc.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDesc.Location = new System.Drawing.Point(280, 90);
+            this.txtDesc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(216, 64);
+            this.txtDesc.Size = new System.Drawing.Size(287, 78);
             this.txtDesc.TabIndex = 66;
             this.txtDesc.Text = "";
             // 
             // txtLecUnit
             // 
             this.txtLecUnit.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtLecUnit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLecUnit.Location = new System.Drawing.Point(210, 143);
+            this.txtLecUnit.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLecUnit.Location = new System.Drawing.Point(280, 176);
+            this.txtLecUnit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtLecUnit.Name = "txtLecUnit";
-            this.txtLecUnit.Size = new System.Drawing.Size(75, 23);
+            this.txtLecUnit.Size = new System.Drawing.Size(99, 23);
             this.txtLecUnit.TabIndex = 68;
             // 
             // txtLabUnit
             // 
             this.txtLabUnit.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtLabUnit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLabUnit.Location = new System.Drawing.Point(210, 172);
+            this.txtLabUnit.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLabUnit.Location = new System.Drawing.Point(280, 212);
+            this.txtLabUnit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtLabUnit.Name = "txtLabUnit";
-            this.txtLabUnit.Size = new System.Drawing.Size(75, 23);
+            this.txtLabUnit.Size = new System.Drawing.Size(99, 23);
             this.txtLabUnit.TabIndex = 69;
             // 
             // Label5
             // 
             this.Label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Label5.AutoSize = true;
-            this.Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label5.Location = new System.Drawing.Point(111, 146);
+            this.Label5.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label5.Location = new System.Drawing.Point(148, 180);
+            this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(93, 17);
+            this.Label5.Size = new System.Drawing.Size(104, 16);
             this.Label5.TabIndex = 61;
             this.Label5.Text = "Lecture Unit :";
             // 
@@ -255,10 +281,11 @@
             // 
             this.Label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(87, 76);
+            this.Label3.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.Location = new System.Drawing.Point(116, 94);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(117, 17);
+            this.Label3.Size = new System.Drawing.Size(133, 16);
             this.Label3.TabIndex = 60;
             this.Label3.Text = "Descriptive Title :";
             // 
@@ -266,10 +293,11 @@
             // 
             this.Label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Label4.AutoSize = true;
-            this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(131, 175);
+            this.Label4.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label4.Location = new System.Drawing.Point(175, 215);
+            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(73, 17);
+            this.Label4.Size = new System.Drawing.Size(80, 16);
             this.Label4.TabIndex = 63;
             this.Label4.Text = "Lab. Unit :";
             // 
@@ -277,20 +305,22 @@
             // 
             this.Label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(117, 47);
+            this.Label1.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.Location = new System.Drawing.Point(156, 58);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(87, 17);
+            this.Label1.Size = new System.Drawing.Size(95, 16);
             this.Label1.TabIndex = 62;
             this.Label1.Text = "Course No .:";
             // 
             // txtSubject
             // 
             this.txtSubject.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtSubject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSubject.Location = new System.Drawing.Point(210, 44);
+            this.txtSubject.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSubject.Location = new System.Drawing.Point(280, 54);
+            this.txtSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSubject.Name = "txtSubject";
-            this.txtSubject.Size = new System.Drawing.Size(216, 23);
+            this.txtSubject.Size = new System.Drawing.Size(287, 23);
             this.txtSubject.TabIndex = 65;
             // 
             // txtSubjectId
@@ -298,9 +328,10 @@
             this.txtSubjectId.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtSubjectId.Enabled = false;
             this.txtSubjectId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSubjectId.Location = new System.Drawing.Point(210, 44);
+            this.txtSubjectId.Location = new System.Drawing.Point(280, 54);
+            this.txtSubjectId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSubjectId.Name = "txtSubjectId";
-            this.txtSubjectId.Size = new System.Drawing.Size(216, 23);
+            this.txtSubjectId.Size = new System.Drawing.Size(287, 26);
             this.txtSubjectId.TabIndex = 64;
             // 
             // cboPrerequisite
@@ -309,9 +340,10 @@
             this.cboPrerequisite.Items.AddRange(new object[] {
             "First",
             "Second"});
-            this.cboPrerequisite.Location = new System.Drawing.Point(519, 342);
+            this.cboPrerequisite.Location = new System.Drawing.Point(692, 421);
+            this.cboPrerequisite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboPrerequisite.Name = "cboPrerequisite";
-            this.cboPrerequisite.Size = new System.Drawing.Size(211, 21);
+            this.cboPrerequisite.Size = new System.Drawing.Size(280, 24);
             this.cboPrerequisite.TabIndex = 80;
             this.cboPrerequisite.Text = "None";
             // 
@@ -319,9 +351,10 @@
             // 
             this.Label9.AutoSize = true;
             this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label9.Location = new System.Drawing.Point(412, 343);
+            this.Label9.Location = new System.Drawing.Point(549, 422);
+            this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(101, 17);
+            this.Label9.Size = new System.Drawing.Size(120, 20);
             this.Label9.TabIndex = 76;
             this.Label9.Text = "Pre Requisite :";
             // 
@@ -337,9 +370,10 @@
             "2019-2020",
             "2020-2021",
             "2021-2022"});
-            this.cbosy.Location = new System.Drawing.Point(480, 339);
+            this.cbosy.Location = new System.Drawing.Point(640, 417);
+            this.cbosy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbosy.Name = "cbosy";
-            this.cbosy.Size = new System.Drawing.Size(211, 21);
+            this.cbosy.Size = new System.Drawing.Size(280, 24);
             this.cbosy.TabIndex = 81;
             this.cbosy.Text = "2014-2015";
             // 
@@ -347,17 +381,18 @@
             // 
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label10.Location = new System.Drawing.Point(373, 340);
+            this.Label10.Location = new System.Drawing.Point(497, 418);
+            this.Label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(99, 17);
+            this.Label10.Size = new System.Drawing.Size(118, 20);
             this.Label10.TabIndex = 77;
             this.Label10.Text = "Acaemic Year:";
             // 
             // frmSubjects
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 537);
+            this.ClientSize = new System.Drawing.Size(1200, 661);
             this.Controls.Add(this.Label11);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.btnDelete);
@@ -384,7 +419,10 @@
             this.Controls.Add(this.Label9);
             this.Controls.Add(this.cbosy);
             this.Controls.Add(this.Label10);
+            this.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmSubjects";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Curriculumn Form";
             this.Load += new System.EventHandler(this.frmSubjects_Load);

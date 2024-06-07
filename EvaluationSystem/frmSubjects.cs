@@ -141,6 +141,11 @@ namespace EvaluationSystem
 
         }
 
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnNew_Click(object sender, EventArgs e)
         {
             UF.clearTxt(this);

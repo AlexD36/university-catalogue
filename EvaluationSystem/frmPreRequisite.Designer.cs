@@ -56,18 +56,20 @@
             // txtSearch
             // 
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSearch.Location = new System.Drawing.Point(74, 19);
+            this.txtSearch.Location = new System.Drawing.Point(111, 23);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(427, 20);
+            this.txtSearch.Size = new System.Drawing.Size(638, 23);
             this.txtSearch.TabIndex = 64;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // txtdesc
             // 
             this.txtdesc.Enabled = false;
-            this.txtdesc.Location = new System.Drawing.Point(104, 58);
+            this.txtdesc.Location = new System.Drawing.Point(156, 71);
+            this.txtdesc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtdesc.Name = "txtdesc";
-            this.txtdesc.Size = new System.Drawing.Size(225, 61);
+            this.txtdesc.Size = new System.Drawing.Size(336, 74);
             this.txtdesc.TabIndex = 15;
             this.txtdesc.Text = "";
             // 
@@ -76,23 +78,29 @@
             this.GroupBox4.Controls.Add(this.Label11);
             this.GroupBox4.Controls.Add(this.txtSearch);
             this.GroupBox4.Controls.Add(this.dtgList);
-            this.GroupBox4.Location = new System.Drawing.Point(11, 62);
+            this.GroupBox4.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupBox4.Location = new System.Drawing.Point(17, 76);
+            this.GroupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GroupBox4.Name = "GroupBox4";
-            this.GroupBox4.Size = new System.Drawing.Size(507, 455);
+            this.GroupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox4.Size = new System.Drawing.Size(760, 560);
             this.GroupBox4.TabIndex = 71;
             this.GroupBox4.TabStop = false;
             this.GroupBox4.Text = "List of Subject";
+            this.GroupBox4.Enter += new System.EventHandler(this.GroupBox4_Enter);
             // 
             // Label11
             // 
             this.Label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label11.AutoSize = true;
-            this.Label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label11.Location = new System.Drawing.Point(7, 20);
+            this.Label11.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label11.Location = new System.Drawing.Point(10, 25);
+            this.Label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(61, 17);
+            this.Label11.Size = new System.Drawing.Size(66, 16);
             this.Label11.TabIndex = 65;
             this.Label11.Text = "Search :";
+            this.Label11.Click += new System.EventHandler(this.Label11_Click);
             // 
             // dtgList
             // 
@@ -104,64 +112,72 @@
             this.dtgList.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtgList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgList.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dtgList.Location = new System.Drawing.Point(6, 50);
+            this.dtgList.Location = new System.Drawing.Point(9, 62);
+            this.dtgList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgList.MultiSelect = false;
             this.dtgList.Name = "dtgList";
             this.dtgList.RowHeadersVisible = false;
+            this.dtgList.RowHeadersWidth = 51;
             this.dtgList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgList.Size = new System.Drawing.Size(495, 400);
+            this.dtgList.Size = new System.Drawing.Size(742, 492);
             this.dtgList.TabIndex = 63;
             this.dtgList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgList_CellClick);
             // 
             // txtSubject
             // 
             this.txtSubject.Enabled = false;
-            this.txtSubject.Location = new System.Drawing.Point(104, 32);
+            this.txtSubject.Location = new System.Drawing.Point(156, 39);
+            this.txtSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSubject.Name = "txtSubject";
-            this.txtSubject.Size = new System.Drawing.Size(225, 20);
+            this.txtSubject.Size = new System.Drawing.Size(336, 23);
             this.txtSubject.TabIndex = 20;
             // 
             // Label13
             // 
             this.Label13.AutoSize = true;
-            this.Label13.Location = new System.Drawing.Point(60, 128);
+            this.Label13.Location = new System.Drawing.Point(90, 158);
+            this.Label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label13.Name = "Label13";
-            this.Label13.Size = new System.Drawing.Size(35, 13);
+            this.Label13.Size = new System.Drawing.Size(50, 16);
             this.Label13.TabIndex = 18;
             this.Label13.Text = "Year :";
             // 
             // Label7
             // 
             this.Label7.AutoSize = true;
-            this.Label7.Location = new System.Drawing.Point(9, 61);
+            this.Label7.Location = new System.Drawing.Point(14, 75);
+            this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(89, 13);
+            this.Label7.Size = new System.Drawing.Size(133, 16);
             this.Label7.TabIndex = 8;
             this.Label7.Text = "Descriptive Title :";
             // 
             // txtSemester
             // 
             this.txtSemester.Enabled = false;
-            this.txtSemester.Location = new System.Drawing.Point(104, 151);
+            this.txtSemester.Location = new System.Drawing.Point(156, 186);
+            this.txtSemester.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSemester.Name = "txtSemester";
-            this.txtSemester.Size = new System.Drawing.Size(127, 20);
+            this.txtSemester.Size = new System.Drawing.Size(188, 23);
             this.txtSemester.TabIndex = 17;
             // 
             // Label14
             // 
             this.Label14.AutoSize = true;
-            this.Label14.Location = new System.Drawing.Point(38, 154);
+            this.Label14.Location = new System.Drawing.Point(57, 190);
+            this.Label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(57, 13);
+            this.Label14.Size = new System.Drawing.Size(86, 16);
             this.Label14.TabIndex = 19;
             this.Label14.Text = "Semester :";
             // 
             // txtYear
             // 
             this.txtYear.Enabled = false;
-            this.txtYear.Location = new System.Drawing.Point(104, 125);
+            this.txtYear.Location = new System.Drawing.Point(156, 154);
+            this.txtYear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtYear.Name = "txtYear";
-            this.txtYear.Size = new System.Drawing.Size(127, 20);
+            this.txtYear.Size = new System.Drawing.Size(188, 23);
             this.txtYear.TabIndex = 16;
             // 
             // GroupBox3
@@ -174,68 +190,82 @@
             this.GroupBox3.Controls.Add(this.Label14);
             this.GroupBox3.Controls.Add(this.txtYear);
             this.GroupBox3.Controls.Add(this.Label1);
-            this.GroupBox3.Location = new System.Drawing.Point(524, 62);
+            this.GroupBox3.Location = new System.Drawing.Point(786, 76);
+            this.GroupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GroupBox3.Name = "GroupBox3";
-            this.GroupBox3.Size = new System.Drawing.Size(366, 189);
+            this.GroupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox3.Size = new System.Drawing.Size(549, 233);
             this.GroupBox3.TabIndex = 70;
             this.GroupBox3.TabStop = false;
             this.GroupBox3.Text = "Subject Details";
+            this.GroupBox3.Enter += new System.EventHandler(this.GroupBox3_Enter);
             // 
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(32, 35);
+            this.Label1.Location = new System.Drawing.Point(48, 43);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(66, 13);
+            this.Label1.Size = new System.Drawing.Size(95, 16);
             this.Label1.TabIndex = 9;
             this.Label1.Text = "Course No. :";
             // 
             // Label15
             // 
             this.Label15.AutoSize = true;
-            this.Label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label15.Location = new System.Drawing.Point(8, 16);
+            this.Label15.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label15.Location = new System.Drawing.Point(12, 20);
+            this.Label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label15.Name = "Label15";
-            this.Label15.Size = new System.Drawing.Size(341, 51);
+            this.Label15.Size = new System.Drawing.Size(407, 54);
             this.Label15.TabIndex = 59;
             this.Label15.Text = "Input Course No. inside the box.\r\nAdd a comma(,) if more than  1 pre requisite. T" +
     "ype it \r\ncorrectly. ex. it101,it102";
+            this.Label15.Click += new System.EventHandler(this.Label15_Click);
             // 
             // txtPreRequisite
             // 
             this.txtPreRequisite.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPreRequisite.Location = new System.Drawing.Point(6, 70);
+            this.txtPreRequisite.Location = new System.Drawing.Point(9, 86);
+            this.txtPreRequisite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPreRequisite.Name = "txtPreRequisite";
-            this.txtPreRequisite.Size = new System.Drawing.Size(354, 139);
+            this.txtPreRequisite.Size = new System.Drawing.Size(529, 170);
             this.txtPreRequisite.TabIndex = 60;
             this.txtPreRequisite.Text = "";
+            this.txtPreRequisite.TextChanged += new System.EventHandler(this.txtPreRequisite_TextChanged);
             // 
             // Label12
             // 
             this.Label12.AutoSize = true;
-            this.Label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label12.Location = new System.Drawing.Point(316, 8);
+            this.Label12.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label12.Location = new System.Drawing.Point(474, 10);
+            this.Label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(284, 51);
+            this.Label12.Size = new System.Drawing.Size(382, 57);
             this.Label12.TabIndex = 68;
             this.Label12.Text = "Pre-Requisite";
+            this.Label12.Click += new System.EventHandler(this.Label12_Click);
             // 
             // GroupBox2
             // 
             this.GroupBox2.Controls.Add(this.Label15);
             this.GroupBox2.Controls.Add(this.txtPreRequisite);
-            this.GroupBox2.Location = new System.Drawing.Point(524, 257);
+            this.GroupBox2.Location = new System.Drawing.Point(786, 316);
+            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GroupBox2.Name = "GroupBox2";
-            this.GroupBox2.Size = new System.Drawing.Size(366, 215);
+            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox2.Size = new System.Drawing.Size(549, 265);
             this.GroupBox2.TabIndex = 69;
             this.GroupBox2.TabStop = false;
             this.GroupBox2.Text = "Pre-Requisite";
+            this.GroupBox2.Enter += new System.EventHandler(this.GroupBox2_Enter);
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(710, 478);
+            this.btnSave.Location = new System.Drawing.Point(1065, 588);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(87, 27);
+            this.btnSave.Size = new System.Drawing.Size(130, 33);
             this.btnSave.TabIndex = 66;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -243,25 +273,30 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(805, 478);
+            this.btnClose.Location = new System.Drawing.Point(1207, 588);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(87, 27);
+            this.btnClose.Size = new System.Drawing.Size(130, 33);
             this.btnClose.TabIndex = 67;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmPreRequisite
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(903, 524);
+            this.ClientSize = new System.Drawing.Size(1354, 645);
             this.Controls.Add(this.GroupBox4);
             this.Controls.Add(this.GroupBox3);
             this.Controls.Add(this.Label12);
             this.Controls.Add(this.GroupBox2);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClose);
+            this.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmPreRequisite";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pre-Requisite Form";
             this.Load += new System.EventHandler(this.frmPreRequisite_Load);
