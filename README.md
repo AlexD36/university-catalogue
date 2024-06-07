@@ -25,8 +25,8 @@ Language: English
 
 ## Installation
 
-1. Clone the repository: `git clone [repository_url]`
-2. In progress
+Clone the repository: `git clone [repository_url]`
+
 
 ## Usage
 
