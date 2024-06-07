@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFinstudents));
             this.Label2 = new System.Windows.Forms.Label();
             this.TextBox1 = new System.Windows.Forms.TextBox();
             this.btnClose = new System.Windows.Forms.Button();
@@ -52,7 +53,7 @@
             // 
             this.TextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBox1.Location = new System.Drawing.Point(768, 92);
-            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.TextBox1.Name = "TextBox1";
             this.TextBox1.Size = new System.Drawing.Size(404, 26);
             this.TextBox1.TabIndex = 15;
@@ -62,7 +63,7 @@
             // 
             this.btnClose.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Location = new System.Drawing.Point(1049, 567);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(124, 38);
             this.btnClose.TabIndex = 13;
@@ -74,7 +75,7 @@
             // 
             this.btnAddGrades.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddGrades.Location = new System.Drawing.Point(867, 567);
-            this.btnAddGrades.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddGrades.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddGrades.Name = "btnAddGrades";
             this.btnAddGrades.Size = new System.Drawing.Size(175, 38);
             this.btnAddGrades.TabIndex = 14;
@@ -104,7 +105,7 @@
             this.dtgList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgList.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgList.Location = new System.Drawing.Point(17, 128);
-            this.dtgList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgList.Margin = new System.Windows.Forms.Padding(4);
             this.dtgList.Name = "dtgList";
             this.dtgList.RowHeadersWidth = 51;
             this.dtgList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -122,9 +123,9 @@
             this.Controls.Add(this.btnAddGrades);
             this.Controls.Add(this.Label1);
             this.Controls.Add(this.dtgList);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmFinstudents";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Find Students";
             this.Load += new System.EventHandler(this.frmFinstudents_Load);

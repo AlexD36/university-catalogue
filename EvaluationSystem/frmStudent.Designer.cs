@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStudent));
             this.cboYearLevel = new System.Windows.Forms.ComboBox();
             this.cboCourse = new System.Windows.Forms.ComboBox();
             this.btnClose = new System.Windows.Forms.Button();
@@ -475,9 +476,9 @@
             this.Controls.Add(this.txtPhoto);
             this.Controls.Add(this.btnDisable);
             this.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "frmStudent";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Form";
             this.Load += new System.EventHandler(this.frmStudent_Load);

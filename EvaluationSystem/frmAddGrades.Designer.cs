@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAddGrades));
             this.txtPreRequisite = new System.Windows.Forms.TextBox();
             this.lblGradeId = new System.Windows.Forms.Label();
             this.txtaddgrades = new System.Windows.Forms.TextBox();
@@ -39,7 +40,7 @@
             // txtPreRequisite
             // 
             this.txtPreRequisite.Location = new System.Drawing.Point(565, 43);
-            this.txtPreRequisite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPreRequisite.Margin = new System.Windows.Forms.Padding(4);
             this.txtPreRequisite.Name = "txtPreRequisite";
             this.txtPreRequisite.Size = new System.Drawing.Size(223, 22);
             this.txtPreRequisite.TabIndex = 19;
@@ -58,7 +59,7 @@
             // 
             this.txtaddgrades.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtaddgrades.Location = new System.Drawing.Point(16, 55);
-            this.txtaddgrades.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtaddgrades.Margin = new System.Windows.Forms.Padding(4);
             this.txtaddgrades.MaxLength = 3;
             this.txtaddgrades.Name = "txtaddgrades";
             this.txtaddgrades.Size = new System.Drawing.Size(503, 55);
@@ -74,7 +75,7 @@
             this.lblSubject.Location = new System.Drawing.Point(13, 10);
             this.lblSubject.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSubject.Name = "lblSubject";
-            this.lblSubject.Size = new System.Drawing.Size(251, 41);
+            this.lblSubject.Size = new System.Drawing.Size(241, 40);
             this.lblSubject.TabIndex = 15;
             this.lblSubject.Text = "Add Grades ";
             // 
@@ -109,9 +110,9 @@
             this.Controls.Add(this.lblSubject);
             this.Controls.Add(this.lblGrades);
             this.Controls.Add(this.lblidno);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmAddGrades";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Grades Form";
             this.ResumeLayout(false);

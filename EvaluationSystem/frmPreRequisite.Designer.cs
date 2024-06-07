@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPreRequisite));
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.txtdesc = new System.Windows.Forms.RichTextBox();
             this.GroupBox4 = new System.Windows.Forms.GroupBox();
@@ -57,7 +58,7 @@
             // 
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSearch.Location = new System.Drawing.Point(111, 23);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(638, 23);
             this.txtSearch.TabIndex = 64;
@@ -67,7 +68,7 @@
             // 
             this.txtdesc.Enabled = false;
             this.txtdesc.Location = new System.Drawing.Point(156, 71);
-            this.txtdesc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtdesc.Margin = new System.Windows.Forms.Padding(4);
             this.txtdesc.Name = "txtdesc";
             this.txtdesc.Size = new System.Drawing.Size(336, 74);
             this.txtdesc.TabIndex = 15;
@@ -80,9 +81,9 @@
             this.GroupBox4.Controls.Add(this.dtgList);
             this.GroupBox4.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupBox4.Location = new System.Drawing.Point(17, 76);
-            this.GroupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox4.Name = "GroupBox4";
-            this.GroupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.GroupBox4.Size = new System.Drawing.Size(760, 560);
             this.GroupBox4.TabIndex = 71;
             this.GroupBox4.TabStop = false;
@@ -113,7 +114,7 @@
             this.dtgList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgList.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgList.Location = new System.Drawing.Point(9, 62);
-            this.dtgList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgList.Margin = new System.Windows.Forms.Padding(4);
             this.dtgList.MultiSelect = false;
             this.dtgList.Name = "dtgList";
             this.dtgList.RowHeadersVisible = false;
@@ -127,7 +128,7 @@
             // 
             this.txtSubject.Enabled = false;
             this.txtSubject.Location = new System.Drawing.Point(156, 39);
-            this.txtSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSubject.Margin = new System.Windows.Forms.Padding(4);
             this.txtSubject.Name = "txtSubject";
             this.txtSubject.Size = new System.Drawing.Size(336, 23);
             this.txtSubject.TabIndex = 20;
@@ -156,7 +157,7 @@
             // 
             this.txtSemester.Enabled = false;
             this.txtSemester.Location = new System.Drawing.Point(156, 186);
-            this.txtSemester.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSemester.Margin = new System.Windows.Forms.Padding(4);
             this.txtSemester.Name = "txtSemester";
             this.txtSemester.Size = new System.Drawing.Size(188, 23);
             this.txtSemester.TabIndex = 17;
@@ -175,7 +176,7 @@
             // 
             this.txtYear.Enabled = false;
             this.txtYear.Location = new System.Drawing.Point(156, 154);
-            this.txtYear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtYear.Margin = new System.Windows.Forms.Padding(4);
             this.txtYear.Name = "txtYear";
             this.txtYear.Size = new System.Drawing.Size(188, 23);
             this.txtYear.TabIndex = 16;
@@ -191,9 +192,9 @@
             this.GroupBox3.Controls.Add(this.txtYear);
             this.GroupBox3.Controls.Add(this.Label1);
             this.GroupBox3.Location = new System.Drawing.Point(786, 76);
-            this.GroupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox3.Name = "GroupBox3";
-            this.GroupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.GroupBox3.Size = new System.Drawing.Size(549, 233);
             this.GroupBox3.TabIndex = 70;
             this.GroupBox3.TabStop = false;
@@ -227,7 +228,7 @@
             // 
             this.txtPreRequisite.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPreRequisite.Location = new System.Drawing.Point(9, 86);
-            this.txtPreRequisite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPreRequisite.Margin = new System.Windows.Forms.Padding(4);
             this.txtPreRequisite.Name = "txtPreRequisite";
             this.txtPreRequisite.Size = new System.Drawing.Size(529, 170);
             this.txtPreRequisite.TabIndex = 60;
@@ -251,9 +252,9 @@
             this.GroupBox2.Controls.Add(this.Label15);
             this.GroupBox2.Controls.Add(this.txtPreRequisite);
             this.GroupBox2.Location = new System.Drawing.Point(786, 316);
-            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox2.Name = "GroupBox2";
-            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.GroupBox2.Size = new System.Drawing.Size(549, 265);
             this.GroupBox2.TabIndex = 69;
             this.GroupBox2.TabStop = false;
@@ -263,7 +264,7 @@
             // btnSave
             // 
             this.btnSave.Location = new System.Drawing.Point(1065, 588);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(130, 33);
             this.btnSave.TabIndex = 66;
@@ -274,7 +275,7 @@
             // btnClose
             // 
             this.btnClose.Location = new System.Drawing.Point(1207, 588);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(130, 33);
             this.btnClose.TabIndex = 67;
@@ -294,9 +295,9 @@
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClose);
             this.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmPreRequisite";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pre-Requisite Form";
             this.Load += new System.EventHandler(this.frmPreRequisite_Load);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSubjects));
             this.Label11 = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -73,7 +74,7 @@
             // 
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSearch.Location = new System.Drawing.Point(871, 300);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(312, 23);
             this.txtSearch.TabIndex = 84;
@@ -84,7 +85,7 @@
             this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnDelete.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Location = new System.Drawing.Point(496, 263);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(100, 43);
             this.btnDelete.TabIndex = 83;
@@ -101,7 +102,7 @@
             "First",
             "Second"});
             this.cboSemester.Location = new System.Drawing.Point(768, 122);
-            this.cboSemester.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboSemester.Margin = new System.Windows.Forms.Padding(4);
             this.cboSemester.Name = "cboSemester";
             this.cboSemester.Size = new System.Drawing.Size(280, 24);
             this.cboSemester.TabIndex = 82;
@@ -118,7 +119,7 @@
             "Third",
             "Fourth"});
             this.cboYearLevel.Location = new System.Drawing.Point(768, 86);
-            this.cboYearLevel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboYearLevel.Margin = new System.Windows.Forms.Padding(4);
             this.cboYearLevel.Name = "cboYearLevel";
             this.cboYearLevel.Size = new System.Drawing.Size(280, 24);
             this.cboYearLevel.TabIndex = 79;
@@ -130,7 +131,7 @@
             this.cboCourse.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboCourse.FormattingEnabled = true;
             this.cboCourse.Location = new System.Drawing.Point(768, 54);
-            this.cboCourse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboCourse.Margin = new System.Windows.Forms.Padding(4);
             this.cboCourse.Name = "cboCourse";
             this.cboCourse.Size = new System.Drawing.Size(280, 24);
             this.cboCourse.TabIndex = 78;
@@ -177,7 +178,7 @@
             this.btnClose.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnClose.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Location = new System.Drawing.Point(604, 263);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(100, 43);
             this.btnClose.TabIndex = 72;
@@ -190,7 +191,7 @@
             this.btnNew.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnNew.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNew.Location = new System.Drawing.Point(388, 263);
-            this.btnNew.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNew.Margin = new System.Windows.Forms.Padding(4);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(100, 43);
             this.btnNew.TabIndex = 71;
@@ -203,7 +204,7 @@
             this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnSave.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Location = new System.Drawing.Point(280, 263);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(100, 43);
             this.btnSave.TabIndex = 70;
@@ -225,7 +226,7 @@
             this.dtgList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgList.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgList.Location = new System.Drawing.Point(16, 332);
-            this.dtgList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgList.Margin = new System.Windows.Forms.Padding(4);
             this.dtgList.Name = "dtgList";
             this.dtgList.RowHeadersVisible = false;
             this.dtgList.RowHeadersWidth = 51;
@@ -239,7 +240,7 @@
             this.txtDesc.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtDesc.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDesc.Location = new System.Drawing.Point(280, 90);
-            this.txtDesc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDesc.Margin = new System.Windows.Forms.Padding(4);
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.Size = new System.Drawing.Size(287, 78);
             this.txtDesc.TabIndex = 66;
@@ -250,7 +251,7 @@
             this.txtLecUnit.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtLecUnit.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLecUnit.Location = new System.Drawing.Point(280, 176);
-            this.txtLecUnit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLecUnit.Margin = new System.Windows.Forms.Padding(4);
             this.txtLecUnit.Name = "txtLecUnit";
             this.txtLecUnit.Size = new System.Drawing.Size(99, 23);
             this.txtLecUnit.TabIndex = 68;
@@ -260,7 +261,7 @@
             this.txtLabUnit.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtLabUnit.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLabUnit.Location = new System.Drawing.Point(280, 212);
-            this.txtLabUnit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLabUnit.Margin = new System.Windows.Forms.Padding(4);
             this.txtLabUnit.Name = "txtLabUnit";
             this.txtLabUnit.Size = new System.Drawing.Size(99, 23);
             this.txtLabUnit.TabIndex = 69;
@@ -318,7 +319,7 @@
             this.txtSubject.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtSubject.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSubject.Location = new System.Drawing.Point(280, 54);
-            this.txtSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSubject.Margin = new System.Windows.Forms.Padding(4);
             this.txtSubject.Name = "txtSubject";
             this.txtSubject.Size = new System.Drawing.Size(287, 23);
             this.txtSubject.TabIndex = 65;
@@ -329,7 +330,7 @@
             this.txtSubjectId.Enabled = false;
             this.txtSubjectId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSubjectId.Location = new System.Drawing.Point(280, 54);
-            this.txtSubjectId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSubjectId.Margin = new System.Windows.Forms.Padding(4);
             this.txtSubjectId.Name = "txtSubjectId";
             this.txtSubjectId.Size = new System.Drawing.Size(287, 26);
             this.txtSubjectId.TabIndex = 64;
@@ -341,7 +342,7 @@
             "First",
             "Second"});
             this.cboPrerequisite.Location = new System.Drawing.Point(692, 421);
-            this.cboPrerequisite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboPrerequisite.Margin = new System.Windows.Forms.Padding(4);
             this.cboPrerequisite.Name = "cboPrerequisite";
             this.cboPrerequisite.Size = new System.Drawing.Size(280, 24);
             this.cboPrerequisite.TabIndex = 80;
@@ -371,7 +372,7 @@
             "2020-2021",
             "2021-2022"});
             this.cbosy.Location = new System.Drawing.Point(640, 417);
-            this.cbosy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbosy.Margin = new System.Windows.Forms.Padding(4);
             this.cbosy.Name = "cbosy";
             this.cbosy.Size = new System.Drawing.Size(280, 24);
             this.cbosy.TabIndex = 81;
@@ -420,9 +421,9 @@
             this.Controls.Add(this.cbosy);
             this.Controls.Add(this.Label10);
             this.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmSubjects";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Curriculumn Form";
             this.Load += new System.EventHandler(this.frmSubjects_Load);

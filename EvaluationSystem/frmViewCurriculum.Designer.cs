@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmViewCurriculum));
             this.Panel5 = new System.Windows.Forms.Panel();
             this.dtgThirdYearFirst = new System.Windows.Forms.DataGridView();
             this.Label9 = new System.Windows.Forms.Label();
@@ -119,7 +120,7 @@
             this.Panel5.Controls.Add(this.Label9);
             this.Panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel5.Location = new System.Drawing.Point(5, 42);
-            this.Panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel5.Margin = new System.Windows.Forms.Padding(4);
             this.Panel5.Name = "Panel5";
             this.Panel5.Size = new System.Drawing.Size(747, 412);
             this.Panel5.TabIndex = 0;
@@ -136,7 +137,7 @@
             this.dtgThirdYearFirst.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgThirdYearFirst.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgThirdYearFirst.Location = new System.Drawing.Point(0, 47);
-            this.dtgThirdYearFirst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgThirdYearFirst.Margin = new System.Windows.Forms.Padding(4);
             this.dtgThirdYearFirst.Name = "dtgThirdYearFirst";
             this.dtgThirdYearFirst.RowHeadersVisible = false;
             this.dtgThirdYearFirst.RowHeadersWidth = 51;
@@ -161,7 +162,7 @@
             this.Panel6.Controls.Add(this.Label10);
             this.Panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel6.Location = new System.Drawing.Point(761, 42);
-            this.Panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel6.Margin = new System.Windows.Forms.Padding(4);
             this.Panel6.Name = "Panel6";
             this.Panel6.Size = new System.Drawing.Size(748, 412);
             this.Panel6.TabIndex = 0;
@@ -178,7 +179,7 @@
             this.dtgThirdYearSecond.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgThirdYearSecond.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgThirdYearSecond.Location = new System.Drawing.Point(0, 47);
-            this.dtgThirdYearSecond.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgThirdYearSecond.Margin = new System.Windows.Forms.Padding(4);
             this.dtgThirdYearSecond.Name = "dtgThirdYearSecond";
             this.dtgThirdYearSecond.RowHeadersVisible = false;
             this.dtgThirdYearSecond.RowHeadersWidth = 51;
@@ -201,9 +202,9 @@
             // 
             this.TabPage4.Controls.Add(this.TableLayoutPanel4);
             this.TabPage4.Location = new System.Drawing.Point(4, 25);
-            this.TabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.TabPage4.Name = "TabPage4";
-            this.TabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage4.Padding = new System.Windows.Forms.Padding(4);
             this.TabPage4.Size = new System.Drawing.Size(1522, 467);
             this.TabPage4.TabIndex = 3;
             this.TabPage4.Text = "Fourth Year";
@@ -221,7 +222,7 @@
             this.TableLayoutPanel4.Controls.Add(this.Label16, 1, 0);
             this.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TableLayoutPanel4.Location = new System.Drawing.Point(4, 4);
-            this.TableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4);
             this.TableLayoutPanel4.Name = "TableLayoutPanel4";
             this.TableLayoutPanel4.RowCount = 2;
             this.TableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.978724F));
@@ -235,7 +236,7 @@
             this.Panel7.Controls.Add(this.Label13);
             this.Panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel7.Location = new System.Drawing.Point(5, 42);
-            this.Panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel7.Margin = new System.Windows.Forms.Padding(4);
             this.Panel7.Name = "Panel7";
             this.Panel7.Size = new System.Drawing.Size(747, 412);
             this.Panel7.TabIndex = 0;
@@ -252,7 +253,7 @@
             this.dtgFourthYearFirst.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgFourthYearFirst.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgFourthYearFirst.Location = new System.Drawing.Point(0, 47);
-            this.dtgFourthYearFirst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgFourthYearFirst.Margin = new System.Windows.Forms.Padding(4);
             this.dtgFourthYearFirst.Name = "dtgFourthYearFirst";
             this.dtgFourthYearFirst.RowHeadersVisible = false;
             this.dtgFourthYearFirst.RowHeadersWidth = 51;
@@ -279,7 +280,7 @@
             this.Panel8.Controls.Add(this.Label14);
             this.Panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel8.Location = new System.Drawing.Point(761, 42);
-            this.Panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel8.Margin = new System.Windows.Forms.Padding(4);
             this.Panel8.Name = "Panel8";
             this.Panel8.Size = new System.Drawing.Size(748, 412);
             this.Panel8.TabIndex = 0;
@@ -296,7 +297,7 @@
             this.dtgFourthYearSecond.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgFourthYearSecond.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgFourthYearSecond.Location = new System.Drawing.Point(0, 47);
-            this.dtgFourthYearSecond.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgFourthYearSecond.Margin = new System.Windows.Forms.Padding(4);
             this.dtgFourthYearSecond.Name = "dtgFourthYearSecond";
             this.dtgFourthYearSecond.RowHeadersVisible = false;
             this.dtgFourthYearSecond.RowHeadersWidth = 51;
@@ -309,7 +310,7 @@
             this.btnSubjectEnroll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSubjectEnroll.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubjectEnroll.Location = new System.Drawing.Point(86, 254);
-            this.btnSubjectEnroll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSubjectEnroll.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubjectEnroll.Name = "btnSubjectEnroll";
             this.btnSubjectEnroll.Size = new System.Drawing.Size(238, 41);
             this.btnSubjectEnroll.TabIndex = 27;
@@ -355,7 +356,7 @@
             this.btnUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnUpdate.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.Location = new System.Drawing.Point(1178, 665);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(212, 41);
             this.btnUpdate.TabIndex = 24;
@@ -368,7 +369,7 @@
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Location = new System.Drawing.Point(1398, 665);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(144, 41);
             this.btnClose.TabIndex = 25;
@@ -481,9 +482,9 @@
             this.GroupBox1.Controls.Add(this.Label20);
             this.GroupBox1.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupBox1.Location = new System.Drawing.Point(18, 7);
-            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox1.Name = "GroupBox1";
-            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.GroupBox1.Size = new System.Drawing.Size(1530, 112);
             this.GroupBox1.TabIndex = 28;
             this.GroupBox1.TabStop = false;
@@ -501,7 +502,7 @@
             this.TableLayoutPanel3.Controls.Add(this.Label12, 1, 0);
             this.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TableLayoutPanel3.Location = new System.Drawing.Point(4, 4);
-            this.TableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4);
             this.TableLayoutPanel3.Name = "TableLayoutPanel3";
             this.TableLayoutPanel3.RowCount = 2;
             this.TableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.978724F));
@@ -543,7 +544,7 @@
             this.TableLayoutPanel2.Controls.Add(this.Label8, 1, 0);
             this.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TableLayoutPanel2.Location = new System.Drawing.Point(4, 4);
-            this.TableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.TableLayoutPanel2.Name = "TableLayoutPanel2";
             this.TableLayoutPanel2.RowCount = 2;
             this.TableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.978724F));
@@ -557,7 +558,7 @@
             this.Panel3.Controls.Add(this.Label5);
             this.Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel3.Location = new System.Drawing.Point(5, 42);
-            this.Panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel3.Margin = new System.Windows.Forms.Padding(4);
             this.Panel3.Name = "Panel3";
             this.Panel3.Size = new System.Drawing.Size(747, 412);
             this.Panel3.TabIndex = 0;
@@ -574,7 +575,7 @@
             this.dtgSecondYearFirst.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgSecondYearFirst.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgSecondYearFirst.Location = new System.Drawing.Point(0, 47);
-            this.dtgSecondYearFirst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgSecondYearFirst.Margin = new System.Windows.Forms.Padding(4);
             this.dtgSecondYearFirst.Name = "dtgSecondYearFirst";
             this.dtgSecondYearFirst.RowHeadersVisible = false;
             this.dtgSecondYearFirst.RowHeadersWidth = 51;
@@ -599,7 +600,7 @@
             this.Panel4.Controls.Add(this.Label6);
             this.Panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel4.Location = new System.Drawing.Point(761, 42);
-            this.Panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel4.Margin = new System.Windows.Forms.Padding(4);
             this.Panel4.Name = "Panel4";
             this.Panel4.Size = new System.Drawing.Size(748, 412);
             this.Panel4.TabIndex = 0;
@@ -616,7 +617,7 @@
             this.dtgSecondYearSecond.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgSecondYearSecond.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgSecondYearSecond.Location = new System.Drawing.Point(0, 47);
-            this.dtgSecondYearSecond.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgSecondYearSecond.Margin = new System.Windows.Forms.Padding(4);
             this.dtgSecondYearSecond.Name = "dtgSecondYearSecond";
             this.dtgSecondYearSecond.RowHeadersVisible = false;
             this.dtgSecondYearSecond.RowHeadersWidth = 51;
@@ -661,9 +662,9 @@
             // 
             this.TabPage1.Controls.Add(this.TableLayoutPanel1);
             this.TabPage1.Location = new System.Drawing.Point(4, 25);
-            this.TabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.TabPage1.Name = "TabPage1";
-            this.TabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.TabPage1.Size = new System.Drawing.Size(1522, 467);
             this.TabPage1.TabIndex = 0;
             this.TabPage1.Text = "First Year";
@@ -681,7 +682,7 @@
             this.TableLayoutPanel1.Controls.Add(this.Label4, 1, 0);
             this.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TableLayoutPanel1.Location = new System.Drawing.Point(4, 4);
-            this.TableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.TableLayoutPanel1.Name = "TableLayoutPanel1";
             this.TableLayoutPanel1.RowCount = 2;
             this.TableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.978724F));
@@ -695,7 +696,7 @@
             this.Panel1.Controls.Add(this.Label1);
             this.Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel1.Location = new System.Drawing.Point(5, 42);
-            this.Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(747, 412);
             this.Panel1.TabIndex = 0;
@@ -712,7 +713,7 @@
             this.dtgFirstYearFirst.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgFirstYearFirst.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgFirstYearFirst.Location = new System.Drawing.Point(0, 47);
-            this.dtgFirstYearFirst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgFirstYearFirst.Margin = new System.Windows.Forms.Padding(4);
             this.dtgFirstYearFirst.Name = "dtgFirstYearFirst";
             this.dtgFirstYearFirst.RowHeadersVisible = false;
             this.dtgFirstYearFirst.RowHeadersWidth = 51;
@@ -740,7 +741,7 @@
             this.Panel2.Controls.Add(this.lblSemester);
             this.Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel2.Location = new System.Drawing.Point(761, 42);
-            this.Panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel2.Margin = new System.Windows.Forms.Padding(4);
             this.Panel2.Name = "Panel2";
             this.Panel2.Size = new System.Drawing.Size(748, 412);
             this.Panel2.TabIndex = 0;
@@ -757,7 +758,7 @@
             this.dtgFirstYearSecond.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgFirstYearSecond.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgFirstYearSecond.Location = new System.Drawing.Point(0, 47);
-            this.dtgFirstYearSecond.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgFirstYearSecond.Margin = new System.Windows.Forms.Padding(4);
             this.dtgFirstYearSecond.Name = "dtgFirstYearSecond";
             this.dtgFirstYearSecond.RowHeadersVisible = false;
             this.dtgFirstYearSecond.RowHeadersWidth = 51;
@@ -822,9 +823,9 @@
             // 
             this.TabPage2.Controls.Add(this.TableLayoutPanel2);
             this.TabPage2.Location = new System.Drawing.Point(4, 25);
-            this.TabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.TabPage2.Name = "TabPage2";
-            this.TabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.TabPage2.Size = new System.Drawing.Size(1522, 467);
             this.TabPage2.TabIndex = 1;
             this.TabPage2.Text = "Second Year";
@@ -840,7 +841,7 @@
             this.TabControl1.Controls.Add(this.TabPage3);
             this.TabControl1.Controls.Add(this.TabPage4);
             this.TabControl1.Location = new System.Drawing.Point(18, 164);
-            this.TabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.TabControl1.Name = "TabControl1";
             this.TabControl1.SelectedIndex = 0;
             this.TabControl1.Size = new System.Drawing.Size(1530, 496);
@@ -850,9 +851,9 @@
             // 
             this.TabPage3.Controls.Add(this.TableLayoutPanel3);
             this.TabPage3.Location = new System.Drawing.Point(4, 25);
-            this.TabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.TabPage3.Name = "TabPage3";
-            this.TabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage3.Padding = new System.Windows.Forms.Padding(4);
             this.TabPage3.Size = new System.Drawing.Size(1522, 467);
             this.TabPage3.TabIndex = 2;
             this.TabPage3.Text = "Third Year";
@@ -863,7 +864,7 @@
             this.btnViewCurriculum.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnViewCurriculum.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewCurriculum.Location = new System.Drawing.Point(888, 665);
-            this.btnViewCurriculum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnViewCurriculum.Margin = new System.Windows.Forms.Padding(4);
             this.btnViewCurriculum.Name = "btnViewCurriculum";
             this.btnViewCurriculum.Size = new System.Drawing.Size(280, 41);
             this.btnViewCurriculum.TabIndex = 26;
@@ -894,7 +895,8 @@
             this.Controls.Add(this.TabControl1);
             this.Controls.Add(this.btnViewCurriculum);
             this.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmViewCurriculum";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Grades";

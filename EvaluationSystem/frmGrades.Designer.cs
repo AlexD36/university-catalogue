@@ -65,7 +65,7 @@
             // 
             this.btnSelect.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSelect.Location = new System.Drawing.Point(557, 566);
-            this.btnSelect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSelect.Margin = new System.Windows.Forms.Padding(4);
             this.btnSelect.Name = "btnSelect";
             this.btnSelect.Size = new System.Drawing.Size(100, 41);
             this.btnSelect.TabIndex = 32;
@@ -90,7 +90,7 @@
             this.btnGo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnGo.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGo.Location = new System.Drawing.Point(1195, 114);
-            this.btnGo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGo.Margin = new System.Windows.Forms.Padding(4);
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(100, 34);
             this.btnGo.TabIndex = 30;
@@ -112,7 +112,7 @@
             this.dtgList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgList.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgList.Location = new System.Drawing.Point(16, 266);
-            this.dtgList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgList.Margin = new System.Windows.Forms.Padding(4);
             this.dtgList.Name = "dtgList";
             this.dtgList.RowHeadersVisible = false;
             this.dtgList.RowHeadersWidth = 51;
@@ -139,7 +139,7 @@
             this.Label10.Location = new System.Drawing.Point(355, 7);
             this.Label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(540, 53);
+            this.Label10.Size = new System.Drawing.Size(533, 52);
             this.Label10.TabIndex = 34;
             this.Label10.Text = "View Student Grades";
             // 
@@ -238,9 +238,9 @@
             this.GroupBox1.Controls.Add(this.Label6);
             this.GroupBox1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupBox1.Location = new System.Drawing.Point(16, 156);
-            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox1.Name = "GroupBox1";
-            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.GroupBox1.Size = new System.Drawing.Size(1287, 102);
             this.GroupBox1.TabIndex = 36;
             this.GroupBox1.TabStop = false;
@@ -253,7 +253,7 @@
             this.txtSearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.Location = new System.Drawing.Point(876, 119);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(309, 26);
             this.txtSearch.TabIndex = 35;
@@ -285,9 +285,9 @@
             this.Controls.Add(this.ToolStrip1);
             this.Controls.Add(this.btnSelect);
             this.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmGrades";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "View Grades Form";
             this.Load += new System.EventHandler(this.frmGrades_Load);

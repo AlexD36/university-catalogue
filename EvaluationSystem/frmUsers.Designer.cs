@@ -58,7 +58,7 @@
             this.dtg_listUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtg_listUser.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtg_listUser.Location = new System.Drawing.Point(17, 246);
-            this.dtg_listUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtg_listUser.Margin = new System.Windows.Forms.Padding(4);
             this.dtg_listUser.Name = "dtg_listUser";
             this.dtg_listUser.RowHeadersVisible = false;
             this.dtg_listUser.RowHeadersWidth = 51;
@@ -84,7 +84,7 @@
             this.btn_saveuser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_saveuser.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_saveuser.Location = new System.Drawing.Point(17, 561);
-            this.btn_saveuser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_saveuser.Margin = new System.Windows.Forms.Padding(4);
             this.btn_saveuser.Name = "btn_saveuser";
             this.btn_saveuser.Size = new System.Drawing.Size(101, 37);
             this.btn_saveuser.TabIndex = 50;
@@ -98,7 +98,7 @@
             this.btn_update.Enabled = false;
             this.btn_update.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_update.Location = new System.Drawing.Point(127, 561);
-            this.btn_update.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_update.Margin = new System.Windows.Forms.Padding(4);
             this.btn_update.Name = "btn_update";
             this.btn_update.Size = new System.Drawing.Size(101, 37);
             this.btn_update.TabIndex = 52;
@@ -112,7 +112,7 @@
             this.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button1.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button1.Location = new System.Drawing.Point(455, 561);
-            this.Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(101, 37);
             this.Button1.TabIndex = 54;
@@ -126,7 +126,7 @@
             this.btn_New.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_New.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_New.Location = new System.Drawing.Point(345, 561);
-            this.btn_New.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_New.Margin = new System.Windows.Forms.Padding(4);
             this.btn_New.Name = "btn_New";
             this.btn_New.Size = new System.Drawing.Size(101, 37);
             this.btn_New.TabIndex = 55;
@@ -152,7 +152,7 @@
             // 
             this.txt_name.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_name.Location = new System.Drawing.Point(249, 100);
-            this.txt_name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_name.Margin = new System.Windows.Forms.Padding(4);
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(428, 28);
             this.txt_name.TabIndex = 44;
@@ -175,7 +175,7 @@
             // 
             this.txt_username.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_username.Location = new System.Drawing.Point(249, 133);
-            this.txt_username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_username.Margin = new System.Windows.Forms.Padding(4);
             this.txt_username.Name = "txt_username";
             this.txt_username.Size = new System.Drawing.Size(428, 28);
             this.txt_username.TabIndex = 45;
@@ -198,7 +198,7 @@
             // 
             this.txt_pass.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_pass.Location = new System.Drawing.Point(249, 167);
-            this.txt_pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_pass.Margin = new System.Windows.Forms.Padding(4);
             this.txt_pass.Name = "txt_pass";
             this.txt_pass.Size = new System.Drawing.Size(428, 28);
             this.txt_pass.TabIndex = 46;
@@ -226,7 +226,7 @@
             "Administrator",
             "Faculty"});
             this.cbo_type.Location = new System.Drawing.Point(249, 202);
-            this.cbo_type.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbo_type.Margin = new System.Windows.Forms.Padding(4);
             this.cbo_type.Name = "cbo_type";
             this.cbo_type.Size = new System.Drawing.Size(200, 28);
             this.cbo_type.TabIndex = 49;
@@ -248,7 +248,7 @@
             this.btn_delete.Enabled = false;
             this.btn_delete.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_delete.Location = new System.Drawing.Point(236, 561);
-            this.btn_delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_delete.Margin = new System.Windows.Forms.Padding(4);
             this.btn_delete.Name = "btn_delete";
             this.btn_delete.Size = new System.Drawing.Size(101, 37);
             this.btn_delete.TabIndex = 57;
@@ -278,9 +278,9 @@
             this.Controls.Add(this.lbl_id);
             this.Controls.Add(this.btn_delete);
             this.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmUsers";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manage Users Form";
             this.Load += new System.EventHandler(this.frmUsers_Load);

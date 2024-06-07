@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCourse));
             this.btnDelete = new System.Windows.Forms.Button();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
@@ -47,7 +48,7 @@
             // 
             this.btnDelete.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Location = new System.Drawing.Point(249, 188);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(89, 36);
             this.btnDelete.TabIndex = 38;
@@ -58,7 +59,7 @@
             // PictureBox1
             // 
             this.PictureBox1.Location = new System.Drawing.Point(377, 7);
-            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBox1.Name = "PictureBox1";
             this.PictureBox1.Size = new System.Drawing.Size(215, 117);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -70,7 +71,7 @@
             this.txtSearch.BackColor = System.Drawing.Color.White;
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.Location = new System.Drawing.Point(337, 255);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(253, 26);
             this.txtSearch.TabIndex = 36;
@@ -92,7 +93,7 @@
             // 
             this.btnclose.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnclose.Location = new System.Drawing.Point(444, 188);
-            this.btnclose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnclose.Margin = new System.Windows.Forms.Padding(4);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(89, 36);
             this.btnclose.TabIndex = 33;
@@ -104,7 +105,7 @@
             // 
             this.btnnew.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnnew.Location = new System.Drawing.Point(347, 188);
-            this.btnnew.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnnew.Margin = new System.Windows.Forms.Padding(4);
             this.btnnew.Name = "btnnew";
             this.btnnew.Size = new System.Drawing.Size(89, 36);
             this.btnnew.TabIndex = 34;
@@ -116,7 +117,7 @@
             // 
             this.btnsave.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsave.Location = new System.Drawing.Point(152, 188);
-            this.btnsave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnsave.Margin = new System.Windows.Forms.Padding(4);
             this.btnsave.Name = "btnsave";
             this.btnsave.Size = new System.Drawing.Size(89, 36);
             this.btnsave.TabIndex = 32;
@@ -135,7 +136,7 @@
             this.dtglist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtglist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtglist.Location = new System.Drawing.Point(17, 290);
-            this.dtglist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtglist.Margin = new System.Windows.Forms.Padding(4);
             this.dtglist.Name = "dtglist";
             this.dtglist.RowHeadersVisible = false;
             this.dtglist.RowHeadersWidth = 51;
@@ -148,7 +149,7 @@
             // 
             this.txtCourse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCourse.Location = new System.Drawing.Point(152, 140);
-            this.txtCourse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCourse.Margin = new System.Windows.Forms.Padding(4);
             this.txtCourse.Name = "txtCourse";
             this.txtCourse.Size = new System.Drawing.Size(380, 26);
             this.txtCourse.TabIndex = 30;
@@ -191,9 +192,9 @@
             this.Controls.Add(this.txtCourse);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.Label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmCourse";
-            this.ShowIcon = false;
             this.Text = "frmCourse";
             this.Load += new System.EventHandler(this.frmCourse_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
