@@ -96,6 +96,16 @@ namespace EvaluationSystem
 
         }
 
+        private void Label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void frmPreRequisite_Load(object sender, EventArgs e)
         {
             sql = "SELECT SubjectId, `Subject` as 'CourseNo.', `DescriptiveTitle`, `LecUnit`, `LabUnit`,Course,`YearLevel`, `Semester`,   `PreRequisite` FROM `tblsubject` s,tblcourse c WHERE s.CourseId=c.CourseId";

@@ -65,8 +65,8 @@
             // 
             // lblmenu
             // 
-            this.lblmenu.BackColor = System.Drawing.Color.Red;
-            this.lblmenu.ForeColor = System.Drawing.Color.Red;
+            this.lblmenu.BackColor = System.Drawing.Color.DarkRed;
+            this.lblmenu.ForeColor = System.Drawing.Color.OrangeRed;
             this.lblmenu.Location = new System.Drawing.Point(1, 0);
             this.lblmenu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmenu.Name = "lblmenu";
@@ -281,7 +281,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Student Management System | Main Form";
+            this.Text = "UniCatalog | Student Management System";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);

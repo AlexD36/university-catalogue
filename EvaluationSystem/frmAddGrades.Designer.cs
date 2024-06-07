@@ -57,6 +57,8 @@
             // 
             // txtaddgrades
             // 
+            this.txtaddgrades.BackColor = System.Drawing.Color.White;
+            this.txtaddgrades.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtaddgrades.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtaddgrades.Location = new System.Drawing.Point(16, 55);
             this.txtaddgrades.Margin = new System.Windows.Forms.Padding(4);
@@ -72,6 +74,7 @@
             // 
             this.lblSubject.AutoSize = true;
             this.lblSubject.Font = new System.Drawing.Font("Verdana", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubject.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblSubject.Location = new System.Drawing.Point(13, 10);
             this.lblSubject.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSubject.Name = "lblSubject";
@@ -110,6 +113,7 @@
             this.Controls.Add(this.lblSubject);
             this.Controls.Add(this.lblGrades);
             this.Controls.Add(this.lblidno);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmAddGrades";

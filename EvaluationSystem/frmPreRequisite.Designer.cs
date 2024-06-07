@@ -57,6 +57,7 @@
             // txtSearch
             // 
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSearch.Location = new System.Drawing.Point(111, 23);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearch.Name = "txtSearch";
@@ -80,6 +81,7 @@
             this.GroupBox4.Controls.Add(this.txtSearch);
             this.GroupBox4.Controls.Add(this.dtgList);
             this.GroupBox4.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.GroupBox4.Location = new System.Drawing.Point(17, 76);
             this.GroupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox4.Name = "GroupBox4";
@@ -95,6 +97,7 @@
             this.Label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label11.AutoSize = true;
             this.Label11.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Label11.Location = new System.Drawing.Point(10, 25);
             this.Label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label11.Name = "Label11";
@@ -126,6 +129,7 @@
             // 
             // txtSubject
             // 
+            this.txtSubject.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSubject.Enabled = false;
             this.txtSubject.Location = new System.Drawing.Point(156, 39);
             this.txtSubject.Margin = new System.Windows.Forms.Padding(4);
@@ -136,12 +140,13 @@
             // Label13
             // 
             this.Label13.AutoSize = true;
-            this.Label13.Location = new System.Drawing.Point(90, 158);
+            this.Label13.Location = new System.Drawing.Point(93, 157);
             this.Label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label13.Name = "Label13";
             this.Label13.Size = new System.Drawing.Size(50, 16);
             this.Label13.TabIndex = 18;
             this.Label13.Text = "Year :";
+            this.Label13.Click += new System.EventHandler(this.Label13_Click);
             // 
             // Label7
             // 
@@ -155,6 +160,7 @@
             // 
             // txtSemester
             // 
+            this.txtSemester.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSemester.Enabled = false;
             this.txtSemester.Location = new System.Drawing.Point(156, 186);
             this.txtSemester.Margin = new System.Windows.Forms.Padding(4);
@@ -165,15 +171,17 @@
             // Label14
             // 
             this.Label14.AutoSize = true;
-            this.Label14.Location = new System.Drawing.Point(57, 190);
+            this.Label14.Location = new System.Drawing.Point(57, 189);
             this.Label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label14.Name = "Label14";
             this.Label14.Size = new System.Drawing.Size(86, 16);
             this.Label14.TabIndex = 19;
             this.Label14.Text = "Semester :";
+            this.Label14.Click += new System.EventHandler(this.Label14_Click);
             // 
             // txtYear
             // 
+            this.txtYear.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtYear.Enabled = false;
             this.txtYear.Location = new System.Drawing.Point(156, 154);
             this.txtYear.Margin = new System.Windows.Forms.Padding(4);
@@ -191,6 +199,7 @@
             this.GroupBox3.Controls.Add(this.Label14);
             this.GroupBox3.Controls.Add(this.txtYear);
             this.GroupBox3.Controls.Add(this.Label1);
+            this.GroupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.GroupBox3.Location = new System.Drawing.Point(786, 76);
             this.GroupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox3.Name = "GroupBox3";
@@ -204,7 +213,7 @@
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(48, 43);
+            this.Label1.Location = new System.Drawing.Point(52, 42);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(95, 16);
@@ -215,6 +224,7 @@
             // 
             this.Label15.AutoSize = true;
             this.Label15.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label15.ForeColor = System.Drawing.Color.Gray;
             this.Label15.Location = new System.Drawing.Point(12, 20);
             this.Label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label15.Name = "Label15";
@@ -239,6 +249,7 @@
             // 
             this.Label12.AutoSize = true;
             this.Label12.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Label12.Location = new System.Drawing.Point(474, 10);
             this.Label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label12.Name = "Label12";
@@ -251,6 +262,7 @@
             // 
             this.GroupBox2.Controls.Add(this.Label15);
             this.GroupBox2.Controls.Add(this.txtPreRequisite);
+            this.GroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.GroupBox2.Location = new System.Drawing.Point(786, 316);
             this.GroupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox2.Name = "GroupBox2";
@@ -263,6 +275,7 @@
             // 
             // btnSave
             // 
+            this.btnSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnSave.Location = new System.Drawing.Point(1065, 588);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
@@ -274,6 +287,7 @@
             // 
             // btnClose
             // 
+            this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnClose.Location = new System.Drawing.Point(1207, 588);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";

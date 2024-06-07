@@ -42,6 +42,7 @@
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Label2.Location = new System.Drawing.Point(679, 96);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
@@ -51,6 +52,7 @@
             // 
             // TextBox1
             // 
+            this.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBox1.Location = new System.Drawing.Point(768, 92);
             this.TextBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -87,6 +89,7 @@
             // 
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Verdana", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Label1.Location = new System.Drawing.Point(17, 14);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
@@ -127,7 +130,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmFinstudents";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Find Students";
+            this.Text = "Find Students Form";
             this.Load += new System.EventHandler(this.frmFinstudents_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgList)).EndInit();
             this.ResumeLayout(false);

@@ -21,6 +21,11 @@ namespace EvaluationSystem
         string sql;
         int maxrow, inc,idno=0,courseid=0;
 
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void tsAdd_Click(object sender, EventArgs e)
         {
             if (idno == 0)

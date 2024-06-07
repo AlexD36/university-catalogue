@@ -71,7 +71,8 @@
             // 
             this.Label5.AutoSize = true;
             this.Label5.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label5.Location = new System.Drawing.Point(288, 12);
+            this.Label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Label5.Location = new System.Drawing.Point(239, 9);
             this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(393, 57);
@@ -137,9 +138,9 @@
             // Label4
             // 
             this.Label4.AutoSize = true;
-            this.Label4.BackColor = System.Drawing.Color.White;
+            this.Label4.BackColor = System.Drawing.Color.Transparent;
             this.Label4.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Image = ((System.Drawing.Image)(resources.GetObject("Label4.Image")));
+            this.Label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Label4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Label4.Location = new System.Drawing.Point(181, 205);
             this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -150,6 +151,7 @@
             // 
             // txt_name
             // 
+            this.txt_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_name.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_name.Location = new System.Drawing.Point(249, 100);
             this.txt_name.Margin = new System.Windows.Forms.Padding(4);
@@ -160,9 +162,9 @@
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.BackColor = System.Drawing.Color.White;
+            this.Label3.BackColor = System.Drawing.Color.Transparent;
             this.Label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Image = ((System.Drawing.Image)(resources.GetObject("Label3.Image")));
+            this.Label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Label3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Label3.Location = new System.Drawing.Point(135, 170);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -173,6 +175,7 @@
             // 
             // txt_username
             // 
+            this.txt_username.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_username.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_username.Location = new System.Drawing.Point(249, 133);
             this.txt_username.Margin = new System.Windows.Forms.Padding(4);
@@ -183,9 +186,9 @@
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.BackColor = System.Drawing.Color.White;
+            this.Label2.BackColor = System.Drawing.Color.Transparent;
             this.Label2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Image = ((System.Drawing.Image)(resources.GetObject("Label2.Image")));
+            this.Label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Label2.Location = new System.Drawing.Point(132, 136);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -196,6 +199,7 @@
             // 
             // txt_pass
             // 
+            this.txt_pass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_pass.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_pass.Location = new System.Drawing.Point(249, 167);
             this.txt_pass.Margin = new System.Windows.Forms.Padding(4);
@@ -207,8 +211,9 @@
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.BackColor = System.Drawing.Color.White;
+            this.Label1.BackColor = System.Drawing.Color.Transparent;
             this.Label1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Label1.Location = new System.Drawing.Point(173, 100);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -235,6 +240,7 @@
             // 
             this.lbl_id.AutoSize = true;
             this.lbl_id.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lbl_id.Location = new System.Drawing.Point(245, 73);
             this.lbl_id.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_id.Name = "lbl_id";
@@ -278,6 +284,7 @@
             this.Controls.Add(this.lbl_id);
             this.Controls.Add(this.btn_delete);
             this.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmUsers";
