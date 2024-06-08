@@ -25,13 +25,15 @@ Language: English
 
 ## Installation
 
-1. Clone the repository: `git clone [repository_url]`
-2. In progress
+Clone the repository: `git clone [repository_url]`
+
 
 ## Usage
 
 1. Instructions on how to run the application
-2. Brief guide on how to use different features
+2. Set up your database server and create the necessary tables using the provided SQL scripts.
+3. Configure the backend application properties to connect to your database.
+5. Run the backend application using your preferred IDE.
 
 ## Contributing
 
