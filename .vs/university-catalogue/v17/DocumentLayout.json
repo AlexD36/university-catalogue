@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\evaluationsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\evaluationsystem\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\evaluationsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\evaluationsystem\\frmprintcurriculumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\frmprintcurriculumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\evaluationsystem\\frmaddgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\frmaddgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\evaluationsystem\\frmprerequisite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\frmprerequisite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\evaluationsystem\\frmcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\frmcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\evaluationsystem\\frmgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\frmgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\evaluationsystem\\frmfinstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\evaluationsystem\\frmfinstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\frmfinstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|c:\\users\\alex\\documents\\github\\university-catalogue\\evaluationsystem\\frmgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\frmgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\evaluationsystem\\frmcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\frmcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\evaluationsystem\\frmaddgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\frmaddgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\evaluationsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\evaluationsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7652A901-2618-4453-B37B-2EE739B4309D}|EvaluationSystem\\EvaluationSystem.csproj|solutionrelative:evaluationsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +46,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmPrintCurriculumn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmPrintCurriculumn.cs",
+              "RelativeDocumentMoniker": "EvaluationSystem\\frmPrintCurriculumn.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmPrintCurriculumn.cs [Design]",
+              "RelativeToolTip": "EvaluationSystem\\frmPrintCurriculumn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:17:28.518Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPreRequisite.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmPreRequisite.cs",
+              "RelativeDocumentMoniker": "EvaluationSystem\\frmPreRequisite.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmPreRequisite.cs [Design]",
+              "RelativeToolTip": "EvaluationSystem\\frmPreRequisite.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:17:26.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmLogin.cs",
+              "RelativeDocumentMoniker": "EvaluationSystem\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmLogin.cs [Design]",
+              "RelativeToolTip": "EvaluationSystem\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:17:24.711Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\Form1.cs",
               "RelativeDocumentMoniker": "EvaluationSystem\\Form1.cs",
@@ -46,20 +93,18 @@
               "RelativeToolTip": "EvaluationSystem\\Form1.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAWwE0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:09:46.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T14:09:46.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "frmGrades.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmGrades.cs",
               "RelativeDocumentMoniker": "EvaluationSystem\\frmGrades.cs",
               "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmGrades.cs [Design]",
               "RelativeToolTip": "EvaluationSystem\\frmGrades.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:02:02.839Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-07T14:02:02.839Z"
             },
             {
               "$type": "Document",
@@ -70,44 +115,40 @@
               "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmFinstudents.cs [Design]",
               "RelativeToolTip": "EvaluationSystem\\frmFinstudents.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:01:36.121Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-07T14:01:36.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "frmCourse.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmCourse.cs",
               "RelativeDocumentMoniker": "EvaluationSystem\\frmCourse.cs",
               "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmCourse.cs [Design]",
               "RelativeToolTip": "EvaluationSystem\\frmCourse.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T13:56:35.3Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-07T13:56:35.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "frmAddGrades.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmAddGrades.cs",
               "RelativeDocumentMoniker": "EvaluationSystem\\frmAddGrades.cs",
               "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\frmAddGrades.cs [Design]",
               "RelativeToolTip": "EvaluationSystem\\frmAddGrades.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T13:54:30.141Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-07T13:54:30.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\Form1.cs",
               "RelativeDocumentMoniker": "EvaluationSystem\\Form1.cs",
               "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\university-catalogue\\EvaluationSystem\\Form1.cs [Design]",
               "RelativeToolTip": "EvaluationSystem\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T13:44:08.007Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-07T13:44:08.007Z"
             }
           ]
         }
