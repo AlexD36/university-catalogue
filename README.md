@@ -1,4 +1,4 @@
-# UniCatalog (in progress)
+# UniCatalog
 
 UniCatalog is a comprehensive university catalogue management system designed to streamline academic administration and enhance user experience for students, faculty, and administrators.
 
