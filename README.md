@@ -25,7 +25,7 @@ Language: English
 
 ## Installation
 
-Clone the repository: `git clone [repository_url]`
+Clone the repository: `git clone AlexD36/university-catalogue`
 
 
 ## Usage
