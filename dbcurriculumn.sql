@@ -852,3 +852,15 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+-- Add foreign key constraints
+ALTER TABLE tblcurriculum
+ADD CONSTRAINT fk_course
+FOREIGN KEY (CourseId) REFERENCES tblcourse(CourseId);
+
+-- Standardize varchar lengths
+ALTER TABLE tblcurriculum
+MODIFY COLUMN Semester varchar(32);
+
+-- Add indexes for frequently queried columns
+CREATE INDEX idx_student_idno ON tblstudent(IdNo);
