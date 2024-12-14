@@ -1,4 +1,4 @@
-# UniCatalog (in progress)
+# UniCatalog
 
 UniCatalog is a comprehensive university catalogue management system designed to streamline academic administration and enhance user experience for students, faculty, and administrators.
 
@@ -25,7 +25,7 @@ Language: English
 
 ## Installation
 
-Clone the repository: `git clone [repository_url]`
+Clone the repository: `git clone https://github.com/AlexD36/university-catalogue`
 
 
 ## Usage
