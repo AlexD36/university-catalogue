@@ -1,5 +1,10 @@
 # UniCatalog
 
+![C#](https://img.shields.io/badge/C%23-9b499f?style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square)
+![.NET Framework](https://img.shields.io/badge/.NET_Framework-4.7.2-5a5a5a?style=flat-square)
+
+
 UniCatalog is a comprehensive university catalogue management system designed to streamline academic administration and enhance user experience for students, faculty, and administrators.
 
 
