@@ -44,3 +44,8 @@ Clone the repository: `git clone https://github.com/AlexD36/university-catalogue
 
 Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
 
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
